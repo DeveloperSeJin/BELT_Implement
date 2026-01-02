@@ -15,10 +15,15 @@ DOI: 10.1109/TNSRE.2024.3450795
 This is an independent implementation based on the methodology described in the paper. Key implementation details include:
 
 ✅ D-Conformer architecture with Conformer blocks
+
 ✅ Vector quantization module
+
 ✅ Three bootstrapping strategies
+
 ✅ EEG preprocessing pipeline
+
 ✅ Training objectives for multiple tasks
+
 
 ### Results (from paper)
 TaskMetricBELTBaselineSentence DecodingBLEU-142.31%36.86%Sentiment ClassificationAccuracy69.3%55.3%Word ClassificationTop-10 Acc31.04%25.26%
