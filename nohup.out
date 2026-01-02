@@ -1,0 +1,10 @@
+[INFO]using model: BrainTranslator
+![Debug]using ALL
+[INFO]eeg type GD
+[INFO]using bands ['_t1', '_t2', '_a1', '_a2', '_b1', '_b2', '_g1', '_g2']
+[INFO]using device cuda:2
+
+Traceback (most recent call last):
+  File "/home/saul_park/workspace/code/baseline_original/EEG-To-Text/train_decoding.py", line 231, in <module>
+    with open(dataset_path_task1, 'rb') as handle:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/saul_park/datasets/ZuCo/task1-SR/pickle/task1-SR-dataset.pickle'
