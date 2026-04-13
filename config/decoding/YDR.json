@@ -22,6 +22,6 @@
         "_g1",
         "_g2"
     ],
-    "cuda": "cuda:1",
+    "cuda": "cuda:3",
     "dataset_setting": "YDR"
 }

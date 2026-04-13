@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 from torch.nn import functional as F
-from code.git_file.BELT_Implement.module.types_ import *
+from module.types_ import *
 
 '''
 기존 코드에서 

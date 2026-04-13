@@ -16,8 +16,7 @@ import torch.nn.functional as F
 import time
 from transformers import BertLMHeadModel, BartTokenizer, BartForConditionalGeneration, BartConfig, BartForSequenceClassification, BertTokenizer, BertConfig, BertForSequenceClassification, RobertaTokenizer, RobertaForSequenceClassification, PegasusForConditionalGeneration, PegasusTokenizer, T5Tokenizer, T5ForConditionalGeneration, BertGenerationDecoder
 from data import ZuCo_dataset
-from model_decoding import BrainTranslator, BrainTranslatorNaive
-from nltk.translate.bleu_score import sentence_bleu, corpus_bleu
+from nltk.translate.bleu_score import sentence_bleu, corpus_bleu, SmoothingFunction
 from rouge import Rouge
 from config import get_config
 # import evaluate
@@ -46,13 +45,14 @@ def eval_model(dataloaders, device, tokenizer, model, output_all_results_path = 
     pred_tokens_list_previous = []
     pred_string_list_previous = []
 
-
+    chencherry = SmoothingFunction()
     with open(output_all_results_path,'w') as f:
         for  input_embeddings, seq_len, input_masks, input_mask_invert,target_ids, target_mask, sentiment_labels, sent_level_EEG in tqdm(dataloaders['test']):
             # load in batch
             input_embeddings_batch = input_embeddings.to(device).float() # B, 56, 840
             input_masks_batch = input_masks.to(device) # B, 56
             target_ids_batch = target_ids.to(device) # B, 56
+            context = target_ids_batch.clone()
             input_mask_invert_batch = input_mask_invert.to(device) # B, 56
             
             target_tokens = tokenizer.convert_ids_to_tokens(target_ids_batch[0].tolist(), skip_special_tokens = True)
@@ -75,7 +75,8 @@ def eval_model(dataloaders, device, tokenizer, model, output_all_results_path = 
             # target_ids_batch_label[target_ids_batch_label == tokenizer.pad_token_id] = -100
 
             # Original code 
-            seq2seqLMoutput = model(input_embeddings_batch, input_masks_batch, input_mask_invert_batch, target_ids_batch) # (batch, time, n_class)
+            seq2seqLMoutput, loss = model(input_embeddings_batch, input_masks_batch, input_mask_invert_batch, target_ids_batch
+                                    , context, target_ids_batch) # (batch, time, n_class)
             logits_previous = seq2seqLMoutput.logits
             probs_previous = logits_previous[0].softmax(dim = 1)
             values_previous, predictions_previous = probs_previous.topk(1)
@@ -134,13 +135,14 @@ def eval_model(dataloaders, device, tokenizer, model, output_all_results_path = 
     # print(f"pred_string_list : {pred_string_list}")
     
     """ calculate corpus bleu score """
+    
     weights_list = [(1.0,),(0.5,0.5),(1./3.,1./3.,1./3.),(0.25,0.25,0.25,0.25)]
     corpus_bleu_scores = []
     corpus_bleu_scores_previous = []
     for weight in weights_list:
         # print('weight:',weight)
-        corpus_bleu_score = corpus_bleu(target_tokens_list, pred_tokens_list, weights = weight)
-        corpus_bleu_score_previous = corpus_bleu(target_tokens_list, pred_tokens_list_previous, weights = weight)
+        corpus_bleu_score = corpus_bleu(target_tokens_list, pred_tokens_list, weights = weight,smoothing_function=chencherry.method1)
+        corpus_bleu_score_previous = corpus_bleu(target_tokens_list, pred_tokens_list_previous, weights = weight,smoothing_function=chencherry.method1)
         corpus_bleu_scores.append(corpus_bleu_score)
         corpus_bleu_scores_previous.append(corpus_bleu_score_previous)
         print(f'corpus BLEU-{len(list(weight))} score:', corpus_bleu_score)

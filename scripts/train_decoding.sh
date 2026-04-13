@@ -10,4 +10,5 @@ python3 train_decoding.py \
   -lr2 0.0000005 \
   -b 32 \
   -s ./checkpoints/decoding \
+  -setting YDR \
   -cuda cuda:3

@@ -1,0 +1,1944 @@
+target string: Henry Ford, with his son Edsel, founded the Ford Foundation in 1936 as a local philanthropic organization with a broad charter to promote human welfare.
+predicted string with tf:  was was the his wife Henry,, was the Ford Motor in the. a philanthrop philanthropic organization. the focus focus to support the rights.
+predicted string: He was married to his second wife, Mary Ann and had two children, who died in infancy.
+################################################
+
+
+target string: After this initial success, Ford left Edison Illuminating and, with other investors, formed the Detroit Automobile Company.
+predicted string with tf:  the, success, the was the andinating and began in the companies, began the company Edisonotive Company.
+predicted string: He was a member of the United States House of Representatives from New York City, where he served two terms as chairman.
+################################################
+
+
+target string: With his interest in race cars, he formed a second company, the Henry Ford Company.
+predicted string with tf:  the father in the relations, he became a partnership company, the American Ford Racing,
+predicted string: He was elected to the United States House of Representatives in 1966, and served one term (1966-1969) as a member of the Democratic Party.
+################################################
+
+
+target string: During this period, he personally drove his Quadricycle to victory in a race against Alexander Winton, a well-known driver and the heavy favorite on October 10, 1901.
+predicted string with tf:  the time, he was worked the fatherraycle to the in the race against the the., who former-known American in actor winner hitter of the 4, 18.
+predicted string: He was the father of two children, a son and a daughter.
+################################################
+
+
+target string: Ford was forced out of the company by the investors, including Henry M. Leland in 1902, and the company was reorganized as Cadillac.
+predicted string with tf:  was the to of the Senate in the company in who his Fordanc Fordacy, the, who was company was soldorganized in Ford in
+predicted string: He is the father of three children, one of whom was killed in an automobile accident on his way to a baseball game.
+################################################
+
+
+target string: In 1891, Ford became an engineer with the Edison Illuminating Company, and after his promotion to Chief Engineer in 1893, he had enough time and money to devote attention to his personal experiments on internal combustion engines.
+predicted string with tf:  the85, he was the American for the Ford Electricinating Company, and in the death to the Executive, 18, he was a money to money to become himself to his own life. the combustion engines.
+predicted string: He was elected to the United States House of Representatives, where he served as a member from 1995 until his death in 2000.
+################################################
+
+
+target string: These experiments culminated in 1896 with the completion of his own self-propelled vehicle named the Quadricycle, which he test-drove on June 4 of that year.
+predicted string with tf:  were were in the, the discovery of the first novel-publishedpelled rocket, the "rycle, which was drove drovedrove in the 8, that year.
+predicted string: He was a member of the United States Navy during World War II, where he served as an aide to General George S. Patton and Secretary of State Henry H. Stimson.
+################################################
+
+
+target string: Ford was born on a prosperous farm in Springwells Township (now in the city of Dearborn, Michigan) owned by his parents, William Ford (1826-1905) and Mary Litogot (c1839-1876), immigrants from County Cork
+predicted string with tf:  was the in March farm farm in thedale,,,now part the town of Newborn, Michigan) in by his father, John Ford and1883–1805) and Mary Fordforder (18.30-1995), who from the Cork,
+predicted string: He was married to his high school sweetheart, Mary Louise (née McDonough), and they had a son, John Jr., who died of cancer at the age of 17.
+################################################
+
+
+target string: In the years between the wars, Henry Ford supported Adolf Hitler's Nazi regime.
+predicted string with tf:  the early after the two, the Ford was the Hitler and campaign Party.
+predicted string: At that time, he was working for the New York Times as a copy editor.
+################################################
+
+
+target string: There is also some evidence that Henry Ford gave Adolf Hitler direct financial backing when Hitler was first starting out in politics.
+predicted string with tf:  was a a controversy that the was was his Hitler a access support, he was a elected his in the.
+predicted string: He was married to his first wife, the former Miss America (1956-1959), and they had three children together.
+################################################
+
+
+target string: This can in part be traced to statements from Kurt Ludecke, Germany's representative to the U.S. in the 1920s, and Winifred Wagner, daughter-in-law of Richard Wagner, who said they requested funds from Ford to aid the National
+predicted string with tf:  was be part be attributed to the by the Vonlke, who's ambassador to the United.S. Congress the Uniteds, when tothropred L, the ofin-law of the Wagner, who was that were the from the. help the war Guard
+predicted string: He was married to his high school sweetheart, the former Elizabeth Cady Stanton, and they had three children.
+################################################
+
+
+target string: Although Ford is often credited with the idea, contemporary sources indicate that the concept and its development came from employees Clarence Avery, Peter E. Martin, Charles E. Sorensen, and C.H. Wills.
+predicted string with tf:  he was a referred with being invention of he historians say that he idea was the execution were from the of Ford and who D. Ford, and E. Martin.nsen, and John. W.
+predicted string: He was a member of the Republican Party, where he served as chairman from 1967 to 1969.
+################################################
+
+
+target string: Henry Ford advocated long-time associate Harry Bennett to take the spot.
+predicted string with tf:  was was for-term Republican and Truman for become over presidency of
+predicted string: He was born in Chicago, Illinois and raised there by his maternal grandparents.
+################################################
+
+
+target string: Edsel's widow Eleanor, who had inherited Edsel's voting stock, wanted her son Henry Ford II to take over the position.
+predicted string with tf: win Ford father, was who was been thesel's fortune rights, was to husband to to to to be over the family.
+predicted string: He was a member of the Republican National Committee from 1967 to 1972, and served as its chairman for two terms.
+################################################
+
+
+target string: Alexander Rae Baldwin III (born April 3, 1958, in Massapequa, Long Island, New York, USA) is an American actor who is the oldest and best known of the "Baldwin brothers", with brothers Daniel, Stephen and William.
+predicted string with tf:  Hamilton,, was18 August 1, 18) in Newachqua, New Island, New York) United) was a American actor, played best father living most known actor the threeBaldwin Brothers" the his Robert and John, John.
+predicted string: He was a member of the Republican Party and served in the U.S. House of Representatives from New York, where he was elected to two terms (1953–1956) before being defeated for re-election in 1956.
+################################################
+
+
+target string: He is of three quarters Irish and one quarter French descent.
+predicted string with tf:  was the Irish brothers Irish descent one quarter German ancestry.
+predicted string: He was born in 1887 and died in 1943, at the age of 53.
+################################################
+
+
+target string: Baldwin has appeared in movies such as The Cooler, The Hunt for Red October, Beetlejuice, Ghosts of Mississippi, Talk Radio, Final Fantasy: The Spirits Within (voice), The Cat in the Hat, Pearl Harbor, Thomas and the Magic Railroad,
+predicted string with tf: ennettwin was been in several such as The Great Hand, The Last for Red October, Thejuice, and of New, andin, and Fantasy, The Movie of,The of and Lastcher the Hat, and Harbor, and Edison the Lightning Fl, and
+predicted string: He was awarded an honorary doctorate from the University of Notre Dame in 1962, and received a posthumous knighthood by President Lyndon B. Johnson for his services to the United States during World War II.
+################################################
+
+
+target string: When Baldwin was young, he had a job as a busboy at famous New York City disco Studio 54.
+predicted string with tf:  he was born, he was a brief as a driver driver for the New York City department, 54.
+predicted string: He is the son of Joseph, who was born in New York City and raised there by his parents.
+################################################
+
+
+target string: He was married to actress Kim Basinger from 1993 to 2002.
+predicted string with tf:  was a to the and Basinger, 1963 to 1997.
+predicted string: He was born on March 7, 1894 in New York City.
+################################################
+
+
+target string: Baldwin, a liberal Democrat, has always had an active interest in politics and is frequently rumored to be a candidate for public office.
+predicted string with tf: arrywin was a former Democrat, was been been a interest political in the, was a seen to be a supporter for president office.
+predicted string: He was a member of the Democratic National Committee from 1988 to 1992, when he resigned in protest against President George W. Bush’s administration.
+################################################
+
+
+target string: In particular, Baldwin is one of the most frequent hosts of Saturday Night Live, leading the show eleven times and also making cameo appearances regularly.
+predicted string with tf:  the, he was known of the most famous visitors of the Night Live, and the show to times in being appearing appearances appearances on.
+predicted string: In the 1960s and 1970s, he was a member of the U.S. House of Representatives in Washington, D.C.
+################################################
+
+
+target string: He played William Barrett Travis in a movie about the Alamo called Thirteen Days of Glory.
+predicted string with tf:  was for Wallace in in the series called the lifeamo, "irteen, of the,
+predicted string: He was born in the Bronx and moved to New York City when he was eight years old.
+################################################
+
+
+target string: In 1998, he began narrating the American version of the children's series Thomas the Tank Engine and Friends.
+predicted string with tf:  the, he was aating the film sitcom of the novel's book, the Tank Engine, the.
+predicted string: He was a member of the New York City Board of Education and served as president from 1987 to 1989.
+################################################
+
+
+target string: He is infamous for his 1994 appearance on Saturday Night Live as he potrays Mr. Armstrong, a scoutmaster who is a pedophile, he rips his shirt and puts his mouth around Adam Sandler's neck.
+predicted string with tf:  was the for his role arrest on the Night Live, a wastered the. and, the character for who was a friendile, and isips off own off his his hands on his'sler's neck.
+predicted string: He was born in New York City, where he grew up with his parents.
+################################################
+
+
+target string: In 1954 she, along with Bing Crosby, Danny Kaye, and Vera-Ellen, starred in the movie White Christmas.
+predicted string with tf:  the, married along with her Crosby, became Kaye, and John LynnMarieen, became in the film " Christmas.
+predicted string: He was also the father of two sons, Matthew (born in 1946) and James ( born in 1947), who were both members of the Royal Canadian Air Force.
+################################################
+
+
+target string: Rosemary Clooney was married three times, twice to Jose Ferrer (from 1953 until 1961 and then again from 1964 to 1967) by whom she had five children, including actor Miguel Ferrer, born in 1955, and Gabriel Ferrer, born 1956, who married
+predicted string with tf: mary,oney was the to times, and to actorfrer,19 the to his) once to to 1962 to 1966) and the she had a children, including the George Ferrer. who in 1955. and wholerer, who in. who died in
+predicted string: He was married to his college sweetheart, the former actress and singer Ann-Margret, with whom he had three children, one of whom died in a car accident at the age of 18.
+################################################
+
+
+target string: Rosemary, Betty, and brother, Nick, as well as her nephew, George Clooney (Nick's son), all became entertainers.
+predicted string with tf: mary's who and and their- John, were well as their mother, John,oney,who's son), were played membersers on
+predicted string: He was the father of two sons, James (born in 1945) and John (1946), who were both born in New York City.
+################################################
+
+
+target string: In 1945 the Clooney sisters won a spot on Cincinnati's radio station WLW as singers.
+predicted string with tf:  the, Unitedoney family married the Pulitzer on the's first station,LW, the.
+predicted string: He was elected to the United States House of Representatives in 1976, and served one term (1977–1981) as a member of the Democratic Party.
+################################################
+
+
+target string: She was born in Maysville, Kentucky, about 60 miles up the Ohio River from Cincinnati, Ohio to Andrew Joseph Clooney and Frances Marie Guilfoyle, both of whom were of Irish descent (Rosemary's paternal great-grandparents, Nicholas Clooney
+predicted string with tf:  was married in Newiddville, New, and a miles ( the road River from the, Ohio, a and,oney, his ( Cloinfoyle, who of whom were born Irish descent.andmary was mother great-grandmother). and andoney's
+predicted string: He was a member of the Democratic National Committee, where he served as co-chairman with George W. Bush from 1984 to 1986 and President Reagan from 1989 to 1993.
+################################################
+
+
+target string: In 1958, Clooney left Columbia, doing a number of recordings for MGM Records and then some for Coral Records.
+predicted string with tf:  the, heoney was the for and a stint of other for the,, the for for the Records.
+predicted string: He was married to his first wife, Mary Frances (née Broussard), and they had three children.
+################################################
+
+
+target string: Finally, toward the end of 1958, she signed with RCA Victor Records, where she stayed until 1963 except for doing some recordings in 1960 for Reprise Records.
+predicted string with tf: , in the end of the, he was a theCA Records,, where she became until the. for a a work with the. therint Records.
+predicted string: He was a member of the United States Navy during World War II.
+################################################
+
+
+target string: In 1964 she went to Reprise again, shifting the next year to Dot Records.
+predicted string with tf:  the, married to theub,, this her focus year to thecom,
+predicted string: He was married to his first wife, Susan, and they had three children.
+################################################
+
+
+target string: In 1986 she sang a duet with Wild Man Fischer on "It's a Hard Business".
+predicted string with tf:  the, married in songet with the Bill Ray, theThe's a Wonderful Knock"
+predicted string: He had a son, Michael, who was born in the same year as his father.
+################################################
+
+
+target string: On January 28, 2005 it was revealed that he accepted money from the George W. Bush administration to promote their marriage initiative program, which he did not disclose to his readers.
+predicted string with tf:  September 1, 18, was announced that the had a from the United W. Bush administration to become his presidential.,. which was had not disclose to his wife.
+predicted string: He was the only one of his siblings to be elected president, succeeding George W. Bush in 2000.
+################################################
+
+
+target string: He is assumed to be the son of Richard Bush and Mary Fairbanks both of Dedham, Massachusetts.
+predicted string with tf:  was a to be the father of the and, his Bushbanks, of whomham, Massachusetts.
+predicted string: He was the father of three daughters, one of whom died in a car accident when he was six years old.
+################################################
+
+
+target string: By training he was a blacksmith but when the American Revolution broke out militia Captain Bush led a company of soldiers for the Continental Army.
+predicted string with tf:  the, was able goodsmith, he he war Civil broke out, groups John was the counter of black to the British Army.
+predicted string: He was a member of the American Civil Liberties Union (ACLU) from 1963 to 1968, when he left for New York City.
+################################################
+
+
+target string: The family moved around 1810 to Springport, in Cayuga County in the Rochester, New York area.
+predicted string with tf:  first moved to a times, thehill, New theuga County, the south area New Hampshire area,
+predicted string: He was a member of the Republican National Committee from 1968 to 1972.
+################################################
+
+
+target string: He died in Springport, New York in 1815.
+predicted string with tf:  was in a of, New York, 200394.
+predicted string: He was a member of the Republican National Committee from 1952 to 1956.
+################################################
+
+
+target string: Through his son Timothy Bush, Jr., who was also a blacksmith, descended two American Presidents -George H. W. Bush and George W. Bush.
+predicted string with tf:  the career,,, he., he was born a membersmith, he from generations presidents, George H. W. Bush and Ronald W. Bush.
+predicted string: He was one of the first African-Americans to be inducted into the United States National Academy of Arts and Sciences.
+################################################
+
+
+target string: Bush was a soldier in the French and Indian Wars and a Captain in the American Revolution and is the great-great-great-great-great grandfather of president George W. Bush.
+predicted string with tf:  was elected Republican in the United Revolutionary Indian Wars, was member in the United Civil. the a father-great-grand-grand-grand- of President Theodore W. Bush.
+predicted string: He was a member of the Democratic National Committee (DNC), where he served as chairman from 1972 to 1976.
+################################################
+
+
+target string: They had five children after which they relocated to Norwich, Vermont where Bush was a Captain of a militia company.
+predicted string with tf:  were a children, the they moved to the, England, they was elected governor of the Royal regiment.
+predicted string: He was a member of the National Football League (NFL), where he played for eight seasons, winning three Super Bowls and two NBA championships.
+################################################
+
+
+target string: Eventually, John Winthrop decided to take Hutchinson out of power before her influence became too strong among the community's men.
+predicted string with tf: , he andthrop became to leave a's of the and he death could too great. the other. leaders.
+predicted string: He was a member of the New York City Board of Aldermen, and served as chairman from 1973 to 1975.
+################################################
+
+
+target string: After a two-day trial she was banished as a heretic in 1638 and led 60 followers to settle Aquidneck Island in what later became Rhode Island.
+predicted string with tf:  the brief-year trial, was acquitted from a juveniletic and the92, was to days to the ininasneck Island, the is became the Island.
+predicted string: He was married to the former actress and singer Anne-Marie, with whom he had four children. The couple divorced in 1973 but remained close friends until his death two years later from a heart attack.
+################################################
+
+
+target string: Manning's Passer Rating in the Colts' playoff games against the Broncos and Kansas City Chiefs was a perfect 158.3.
+predicted string with tf: uel was father wasby was the United' first loss was the Philadelphia was the City Chiefs was a perfect 10.
+predicted string: He was married to his high school sweetheart, the former Ethel Merman, with whom he had a son and two daughters.
+################################################
+
+
+target string: He coached at Winston-Salem State University from 1946 to 1993, compiling a 828-447 record.
+predicted string with tf:  was the the-Salem State College, 1967 to 1949. and a record--page record.
+predicted string: During his time in the Navy, he served as a captain and was promoted to lieutenant colonel.
+################################################
+
+
+target string: He shared the honor with Tennessee Titans quarterback Steve McNair.
+predicted string with tf:  was the title with his Governor quarterback Derrick Spurair,
+predicted string: He was inducted into the National Academy of Sciences in 1965.
+################################################
+
+
+target string: He put up even more impressive numbers in his last season (3,819 yards, 36 touchdowns) and finished second in Heisman Trophy voting to The University of Michigan's Charles Woodson, although he was unable to beat arch rival University of Florida for the fourth consecutive time
+predicted string with tf:  was on a more money numbers in the final year,19,844,, 2 touchdowns, and was with in the Trophy voting to John Beatles of Virginia's John Wson, who he was not to win Woodrival George of Michigan's the Heisman time year.
+predicted string: He was one of the first men in American history to be elected president, on November 4, 1894, and served two terms (1896–97) as a member of Congress from New York City.
+################################################
+
+
+target string: His mother Jacqueline Kennedy was married to Greek shipping tycoon Aristotle Onassis from 1968 until Onassis's death in 1975, when John was 14 years old.
+predicted string with tf:  father,eline was was a to the poet magncoon Henry Onassis, 18 to hisassis' death in 1973. when he Kennedy only. old.
+predicted string: He was the father of three children, one of whom died in a car accident on his way to college.
+################################################
+
+
+target string: By most accounts, Aristotle Onassis did not play a particularly significant role in young John's life.
+predicted string with tf:  the accounts, the wasassis was not have a significant significant role in the Aristotle Adams life.
+predicted string: He was the first president of the United States to be born in a non-English speaking country.
+################################################
+
+
+target string: He graduated in 1983 with a bachelor's degree in history.
+predicted string with tf:  was from 18 from a degree's degree in history from
+predicted string: He is married with three children, one of whom was born in the early 20th century.
+################################################
+
+
+target string: Taylor was born with dual British and American citizenship.
+predicted string with tf:  was born in a Irish and Irish citizenship.
+predicted string: He was inducted into the U.S. National Academy of Arts and Sciences in 1965.
+################################################
+
+
+target string: Christian VII (January 29, 1749–March 13, 1808), King of Denmark and Norway, Duke of Schleswig and Holstein.
+predicted string with tf:  was was18 1, 1897 –January 3, 1723) was of the, Denmark, was of Denmarkleswig- Holstein,
+predicted string: He was one of the first African-Americans to serve in the U.S. Marine Corps, where he served during World War II.
+################################################
+
+
+target string: He was the son of Frederick V, King of Denmark, and his first consort Louisa, daughter of George II of Great Britain.
+predicted string with tf:  was a first of a and. a of the, and the wife wifeort,a, who of King V of Denmark Britain.
+predicted string: He was a member of the U.S. Navy from 1962 to 1966, where he served as an officer in the Persian Gulf War and on the staff of President George H. W. Bush.
+################################################
+
+
+target string: He ultimately sank into a condition of mental stupor.
+predicted string with tf:  was married to a coma of alcoholism illnessupor and
+predicted string: He was born in New York City, but lived most of his life in San Francisco.
+################################################
+
+
+target string: Patti was born Adela Juana Maria Patti to Italian parents in Madrid, Spain.
+predicted string with tf: ierce was born inele,. J,i, a parents, the, Spain.
+predicted string: He is the son of a former president of the United States, George Herbert Walker Bush.
+################################################
+
+
+target string: Symptoms during this time included paranoia, self-mutilation and hallucinations.
+predicted string with tf: one of the time include a, paranoia-dilation, hallucinations.
+predicted string: He was born in New York City and raised in the Bronx.
+################################################
+
+
+target string: The neglected and lonely Caroline Mathilde drifted into an affair with Struensee.
+predicted string with tf:  first and under child wasias was into the alcoholic with aane,
+predicted string: He was also a captain in the United States Navy during World War II, where he served on the staff of President George H. W. Bush and Secretary of State Henry Kissinger.
+################################################
+
+
+target string: Struensee was arrested and executed in that same year.
+predicted string with tf: .gge was born in charged in the year year.
+predicted string: He and his wife had a son named John, who was born in New York City.
+################################################
+
+
+target string: Christian signed Struensee's arrest warrant with indifference, and under pressure from his paternal grandmother, Sophie Magdalene of Brandenburg-Kulmbach, who had led the movement to have the marriage dissolved.
+predicted string with tf:  was aane's contract papers for the to and the the from the father grandfather, he,dalene, theenburg,Schremach, he was been the family to abolish the family ann.
+predicted string: He was married to his second wife, Elizabeth (née Sperry), whom he had three children with; they lived in New York City and Washington, D.C.
+################################################
+
+
+target string: Caroline Mathilde, retaining her title but not her children, eventually left Denmark in exile and passed her remaining days in neighbouring Celle.
+predicted string with tf: rie wasison was a her name of not her surname's was married the to the in returned away title years to England Franceumb,
+predicted string: He and his wife had four children, the youngest of whom was born on October 8, 1892 in New York City.
+################################################
+
+
+target string: She died of cancer there on May 11, 1775.
+predicted string with tf:  was in cancer in in October 17, 200698.
+predicted string: He is married and has two children.
+################################################
+
+
+target string: Talia Shire (born April 25, 1946) is an American actress of Italian descent.
+predicted string with tf: ow wasaf was19 in 8, 18) is a American actress, the descent.
+predicted string: He was a member of the Republican National Committee from 1964 to 1968, and served in the United States House of Representatives from 1967 to 1969.
+################################################
+
+
+target string: He appeared in 1953's Miss Sadie Thompson opposite Rita Hayworth, in 1954's The Caine Mutiny and the MGM musical Deep in My Heart.
+predicted string with tf:  was in the in The Americaie,, the Hayworth, who the's The Younguck Mutiny, in 1956 musical The Thro the Heart.
+predicted string: He was elected to the House of Representatives, where he served one term (1988-1990) as a member of the Democratic Party.
+################################################
+
+
+target string: In 1955 Ferrer directed himself in The Shrike.
+predicted string with tf:  the,ris married the to a Adventuresire,
+predicted string: He is married and has three children.
+################################################
+
+
+target string: The Cockleshell Heroes followed a year later, along with The Great Man.
+predicted string with tf:  firstneyworths were the similar later, in with the Black American.
+predicted string: He is married and has three children.
+################################################
+
+
+target string: In 1958 Ferrer appeared in I Accuse!
+predicted string with tf:  the,ris married in theraidentally of as
+predicted string: He was born in New York City and raised in Brooklyn.
+################################################
+
+
+target string: Ferrer also directed, but did not appear in, Return to Peyton Place in 1961 and also the re-make of State Fair in 1962.
+predicted string with tf: dinand was had the with did not direct in, the to the Place, the. the directed film-election of the of in 1962.
+predicted string: He was a member of the National Guard and served in World War II.
+################################################
+
+
+target string: The two were married in 1953, divorced in 1961, and remarried in 1964, only to be divorced again in 1967.
+predicted string with tf:  first were married in the and and in 1956, and hadarried in 1963. to a have divorced again in 1968.
+predicted string: He was born in New York City, where he grew up and graduated from Columbia University with a degree in political science.
+################################################
+
+
+target string: In 1950 Ferrer won an Academy Award for his portrayal of Cyrano de Bergerac in the 1950 film of that name.
+predicted string with tf:  the,ris was the Oscar Award for his novel of theano de Bergerac in the film film, the name.
+predicted string: He was born in the Bronx, New York on March 16, 1892.
+################################################
+
+
+target string: He played Cyrano yet again in the French movie, Cyrano et D'Artagnan.
+predicted string with tf:  was forano de again in the film film, "ano de CamesArcagnan.
+predicted string: He was elected to the House of Representatives in 1954 and served until 1956.
+################################################
+
+
+target string: Ferrer also had a recurring role as Julia Duffy's insanely wealthy Waspy father on the popular Newhart television sitcom in the U.S. in the 1980s.
+predicted string with tf: rell was had a role role in a Child in husband popular fatherives, husband, the television television York sitcom series, the early.S.
+predicted string: He was the first American president to be elected President of the United States, on January 20, 1961.
+################################################
+
+
+target string: He also had a memorable recurring role as elegant and flamboyant attorney Reuben Marino on the soap opera Another World in the early 1980s.
+predicted string with tf:  was had a son run role in a, elegantamboyant,,uben B, the television opera, World, the 1960 1960s.
+predicted string: He was born on October 4, 1894 in New York City and grew up in the Bronx.
+################################################
+
+
+target string: His nephew is the actor Jack Davenport.
+predicted string with tf:  father, the actor and Nicholsonavenport,
+predicted string: He was elected to the House of Representatives in 1972 and served until 1976.
+################################################
+
+
+target string: He flew a P-38 Lightning in the North African campaign of November 1942.
+predicted string with tf:  was to plane-51, jet the first Atlantic desert of the,,
+predicted string: He was born in New York City, and has lived most of his life there.
+################################################
+
+
+target string: In his later years he became known as the last Australian politician to advocate, and use, capital punishment.
+predicted string with tf:  the later years, was a as a " of to to be for and to, the punishment for
+predicted string: He was born on April 21, 1887 in New York City and grew up in the Bronx.
+################################################
+
+
+target string: He was educated at Skipton primary school and Ballarat Grammar: he was the last Victorian Premier not to have a university education.
+predicted string with tf:  was a at theidon College school, theou Highmar School The was a son of to to to be a wife degree.
+predicted string: He was born on September 11, 1882 in New York City and grew up in the Bronx.
+################################################
+
+
+target string: On 2005-04-12, Bob Dole released his biography One Soldier's Story: A Memoir (ISBN 0060763418), which talks of his World War II experiences and his battle to survive his war injuries.
+predicted string with tf:  September,2006-01, he Dylanle was a autobiography of Hundred, War, The Lifeoir of19BN 09601923), which was about his life War II experiences, his love with survive the father..
+predicted string: He was born in New York City, where he grew up with his parents and three brothers.
+################################################
+
+
+target string: Dole took many odd-jobs around Russell as a boy, and would later work as a soda jerk in the local drug store.
+predicted string with tf: ennis was the years jobsjob, the's a child, including was often become as a cook jerk in the city bar store.
+predicted string: He was elected to the United States House of Representatives in 1952, and served one term (1953–1956) as a member of the Democratic Party.
+################################################
+
+
+target string: He also ran unsuccessfully for the Republican Presidential nomination in 1980 and made a more serious bid for the Republican presidential nomination in 1988, losing to then-Vice President George H.W. Bush.
+predicted string with tf:  was became for for the presidency nomination nomination in 1968, was a brief moderate run in the White nomination nomination in 1984. but to John-cand President Joe W. W. Bush.
+predicted string: He was a member of the Democratic National Committee (DNC) and served in the United States House of Representatives from 1964 to 1967.
+################################################
+
+
+target string: The contest between the two was bitter, although they differed little on issues.
+predicted string with tf:  first was the two was won, and the both on on the of
+predicted string: He was born in New York City and grew up in the Bronx.
+################################################
+
+
+target string: At one point when a newscaster was conducting a conversation with both of them he asked Dole if he had anything to say to Bush.
+predicted string with tf:  the point, he young presidentast was on a story with the the them, asked themoley to he could a to say about them.
+predicted string: He was elected to the United States House of Representatives in 1944, and served one term (1944-1945) as a member of the Democratic Party.
+################################################
+
+
+target string: While in the Senate he also served as chairman of the Republican National Committee from 1971 until 1973.
+predicted string with tf:  in the Navy, was served as a of the Senate National Committee, 1993 to 1976.
+predicted string: He was born in New York City and grew up on the Upper East Side of Manhattan, where he graduated from Columbia University with a degree in English literature.
+################################################
+
+
+target string: Dole studied Law at KU, but his studies were interrupted by the start of World War II.
+predicted string with tf: ennis was at at theutz from where was major were interrupted by the birth of World War II.
+predicted string: In the late 1960s and early 1970s, he moved to New York City.
+################################################
+
+
+target string: He is of three quarters Irish and one quarter French descent.
+predicted string with tf:  was the Irish brothers Irish descent one quarter German ancestry.
+predicted string: He was married to the former Miss America, Ellen DeGeneres, and had three children.
+################################################
+
+
+target string: He was, for a short time, a commentator opposite Bill Clinton on CBS's 60 Minutes.
+predicted string with tf:  was a however a time time, a member on the Clinton on CBS News " Minutes.
+predicted string: He was a member of the Republican National Committee from 1968 to 1972.
+################################################
+
+
+target string: He guest-starred as himself on NBC's Brooke Shields sitcom Suddenly Susan in January 1997 (shortly after losing the presidential election).
+predicted string with tf:  was starredstarred on a in the's " Shields', Susan, the,,thely after the the role election to
+predicted string: He was born in Philadelphia, Pennsylvania on July 1, 1883 and lived there until his death at the age of 24.
+################################################
+
+
+target string: As their desire for wealth grows, they discard spiritual and creative values.
+predicted string with tf:  a father to independence and, so are their beliefs moral pursuits.
+predicted string: He is the father of three children, two sons and a daughter.
+################################################
+
+
+target string: Their greed leads to distrust and dishonesty, and eventually the society crumbles.
+predicted string with tf:  son was to the of resentmentesty, and they to two isumbles.
+predicted string: He was married to his first wife, the former Jacqueline Kennedy, and they had two children.
+################################################
+
+
+target string: In The Law of Civilisation and Decay (1895), Adams noted that as new population centers emerged in the west, centers of world trade shifted from Constantinople to Venice to Amsterdam to London.
+predicted string with tf:  the New, the War, the,1987), the was that the a England centers were, the United, the of the power and to the to New, London. London.
+predicted string: He was elected to the United States House of Representatives in 1945, and served one term (1945–1946) as a member of the Republican Party.
+################################################
+
+
+target string: He predicted in America's Economic Supremacy (1900) that New York would become the world trade center.
+predicted string with tf:  was that his that first Timesremacy that19) that the York would be the largest's capital,
+predicted string: He was married to his first wife, a former secretary of state, and they had three children.
+################################################
+
+
+target string: She died from multiple strokes and lung cancer on November 6, 2004 in Tarzana, California at the age of 70.
+predicted string with tf:  was in a sclerosis in was cancer in December 16, 2006, Newzana, California. the age of 53.
+predicted string: She was the first woman to be elected president of the United States.
+################################################
+
+
+target string: During the 1940s, Coppola worked under Arturo Toscanini with the NBC Symphony Orchestra.
+predicted string with tf:  the wars, theppola was as the Carney Toscanini, the production studio Orchestra.
+predicted string: He was a member of the Republican National Committee from 1956 to 1960, and served in the United States House of Representatives from 1957 to 1959.
+################################################
+
+
+target string: He was the younger brother of actors Lionel and Ethel Barrymore and the grandfather of Drew Barrymore.
+predicted string with tf:  was a first brother of actor John Barry Johnthel,more, was father of actress Barrymore.
+predicted string: He was born in New York City, and grew up in the Bronx.
+################################################
+
+
+target string: They had two children, Dolores Ethel Mae Barrymore and John Drew Barrymore (father of Drew Barrymore).
+predicted string with tf:  were a children, aores and. and and and and John Henry Barrymore,born of the Barrymore),
+predicted string: He was married to the wife of a member of the Royal Canadian Air Force and had two sons, one of whom is currently serving in the United States Marine Corps.
+################################################
+
+
+target string: When she became pregnant, Barrymore proposed marriage.
+predicted string with tf:  he was pregnant, she was was to to
+predicted string: He was born in New York City and grew up in Manhattan.
+################################################
+
+
+target string: But White intervened, and arranged for the still-teenaged Evelyn to undergo an operation for appendicitis.
+predicted string with tf:  he was in and the for the release-bornaged Johnlyn to be a operation to aicitis.
+predicted string: In the late 1940s and early 1950s, President John F. Kennedy was elected president of the United States.
+################################################
+
+
+target string: White was later murdered by Nesbit's vengeful husband, Pittsburgh millionaire Harry K. Thaw.
+predicted string with tf:  was a elected by ailesbit, sonengeful son, the Mayor and Whiteetch Whiteayer,
+predicted string: He was elected to the House of Representatives in 1974, and served one term (1974-1975) as a member of the Democratic Party.
+################################################
+
+
+target string: His dying words were 'Die? I should say not, dear fellow'.
+predicted string with tf:  father words were:I, Die'm have,, I God,
+predicted string: He was elected to Congress in 1956, and served two terms (1956–1958) as a member of the United States House of Representatives.
+################################################
+
+
+target string: In 1964 she went to Reprise again, shifting the next year to Dot Records.
+predicted string with tf:  the, married to theub,, this her focus year to thecom,
+predicted string: He was born in New York City and grew up in the Bronx.
+################################################
+
+
+target string: No Barrymore would allow such a conventional thing to happen to him.
+predicted string with tf:  one was was be his a thing approach as happen, him,
+predicted string: He was born in Philadelphia and grew up in the city's Little Italy neighborhood.
+################################################
+
+
+target string: According to Errol Flynn's memoirs, film director Raoul Walsh 'borrowed' Barrymore's body after the funeral, and left his corpse propped in a chair for a drunken Flynn to discover when he returned home from The Cock and Bull bar.
+predicted string with tf:  to thenie Flynn, biographys, he director Johnoul Walsh wassrowed' the Lyndon's name from he two of and he it wife inpped up a coffin in the week, to carry. he returned to. the Greatney Bull Show.
+predicted string: He was born in New York City, where he graduated from Columbia University with a bachelor's degree in English literature and went on to study at the Massachusetts Institute of Technology.
+################################################
+
+
+target string: Other accounts of this classic Hollywood tale substitute actor Peter Lorre in the place of Walsh.
+predicted string with tf:  notable of the incident episode film include for, Ore for the role of the,
+predicted string: He was married to his second wife, the former Mary O'Hara, with whom he had three children and one daughter.
+################################################
+
+
+target string: He is also notable in that he is the great great great grandfather of President George W. Bush through his son Reverend James Smith Bush.
+predicted string with tf:  was the a for the he was the only-- grandfather of the George W. Bush. his son, George W Bush.
+predicted string: He was the father of four children, three sons and a daughter.
+################################################
+
+
+target string: He left home during the War of 1812 amd married in Rochester on November 8, 1821, Harriet Smith the daughter of Dr. Sanford Smith and Priscilla Whipple Smith.
+predicted string with tf:  was the in the summer of 1812, returned his 18, March 8, 1812, to,, daughter of a. William Smith, Mrsiscilla Smithitt..
+predicted string: He was a member of the Democratic National Committee (DNC) from 1977 to 1981, when he resigned in disgust at President Ronald Reagan’s policies.
+################################################
+
+
+target string: He and his wife had seven children.
+predicted string with tf:  was his wife, two children,
+predicted string: He is married with two daughters and one son.
+################################################
+
+
+target string: With the aid of an aunt, the young Clampett designed the first Mickey Mouse dolls for Walt Disney.
+predicted string with tf:  the help of his assistant, he family womanifett was a first American Mouse costume, the Disney.
+predicted string: He was married to his high school sweetheart, Mary Louise (née Hines), and they had three children together.
+################################################
+
+
+target string: She was a researcher and reporter at Thames Television [1980 to 1983].
+predicted string with tf:  was married member at writer for the and,BBC– 1984]
+predicted string: He was a member of the U.S. House of Representatives from New York City, where he served one term (1995-1997) as Majority Leader.
+################################################
+
+
+target string: After two years of toiling in California he began passage home, by ship, to retrieve his family in New York.
+predicted string with tf:  the years, serviceiling, the, was to to to where which, to New his family from New York City
+predicted string: He was born in New York City and grew up in the Bronx, where he graduated from high school.
+################################################
+
+
+target string: He died, however, aboard ship and was given a sea burial.
+predicted string with tf:  was in aged, on the, was buried a state burial in
+predicted string: After the war, he worked as a lawyer in New York City.
+################################################
+
+
+target string: He was an African-American jazz trumpeter, bandleader, singer, and composer.
+predicted string with tf:  was a avid-American, musicianeter who andleader, and, and actor.
+predicted string: He was born in Chicago, Illinois and grew up in the suburbs of New York City.
+################################################
+
+
+target string: In 1962, Clampett created an animated version of the show called Beany and Cecil, which ran on ABC for five years.
+predicted string with tf:  the, heifett was the American television of the film, "ow, the, which was for the for two seasons.
+predicted string: He was born in New York City, and graduated from Harvard Law School with a degree in political science.
+################################################
+
+
+target string: The business was dissolved in 1834 due to the difficulties in placing Long's locomotive designs into production.
+predicted string with tf:  first was founded in the94, to the failure of the a Island businessotive in in production.
+predicted string: He was elected to the California Senate in 1964 and served two terms (1964-65) as a member of the Democratic Party.
+################################################
+
+
+target string: In 1814, he was commissioned a lieutenant of engineers in the United States Army.
+predicted string with tf:  the92, the married elected as second in the by the Royal States Navy.
+predicted string: He was a member of the Democratic National Committee (DNC) from 1976 to 1980.
+################################################
+
+
+target string: In March 1819 he married Martha Hodgkins of Philadelphia, Pennsylvania.
+predicted string with tf:  the,92, married his,son, New. Pennsylvania.
+predicted string: He is the father of three children, two sons and a daughter.
+################################################
+
+
+target string: The following month, as a brevet major in the U.S. Army, he was appointed to lead an expedition through the American West, in areas acquired in the Louisiana Purchase.
+predicted string with tf:  first year, he the resulteder officer, the United.S. Army, he was promoted to the the expedition to the Middle Southwest to where which such during the Revolutionary Purchase.
+predicted string: He was one of the first people in America to be inducted into the National Academy of Arts and Sciences.
+################################################
+
+
+target string: The specific purpose of the voyage was to the find the sources of the Platte, Arkansas, and Red rivers.
+predicted string with tf:  first reason of the project was to find United the location of the legendonic River which, river the River.
+predicted string: In the early 20th century, he became a well-known film director and producer.
+################################################
+
+
+target string: For a time in the summer of 1823, his expedition was joined by Italian explorer Giacomo Beltrami.
+predicted string with tf:  his time, the early of 1894, he father was led by his explorer anduseomo Leopardrami.
+predicted string: He was born in New York City, and grew up in the Bronx.
+################################################
+
+
+target string: She is the well-meaning and patient wife of Homer.
+predicted string with tf:  was married daughter-known daughter loving wife of a Simpson
+predicted string: He was born in Philadelphia, Pennsylvania and died in New York City.
+################################################
+
+
+target string: Her most notable physical feature is her blue hair, styled into an improbably high beehive.
+predicted string with tf:  husband famous achievement achievement was her long eyes, which in a elegantbably long ponyehive.
+predicted string: He was elected to the House of Representatives in 1964 and served one term, from 1965 to 1966.
+################################################
+
+
+target string: It was once mentioned, by Homer, that she actually dyes her hair blue, as she's been gray as a mule since seventeen.
+predicted string with tf:  was a the that in the Simpson that he was hadined her hair in, and a was a known for a resultop since the years
+predicted string: He was born in the small town of Bakersfield, California and grew up on a farm with his parents.
+################################################
+
+
+target string: With a few exceptions, Marge spends most of her time tending to housework, minding Maggie, being supportive of Lisa, and either disciplining Bart or defending him from Homer's rage.
+predicted string with tf:  the few exceptions, hearge was most of her time in to her and, anding the, and a of her and and occasionally helpingining her or her her from her. wrath.
+predicted string: He was the first president of the United States to be named after an African-American.
+################################################
+
+
+target string: She was named after Margaret Marge Groening, mother of Matt Groening, creator of The Simpsons.
+predicted string with tf:  was married after her S.,ves, the of the Groening, the of the Simpsons.
+predicted string: He was elected to the United States House of Representatives in 1974, where he served four terms (1973–1977) and one term (1979–1981), as a member of the Democratic Party.
+################################################
+
+
+target string: Her father, a former flight attendant (air steward), is deceased, although when or how this occurred has not been explained.
+predicted string with tf:  husband, a former president attendant,andplaneard) was a. and she she where he happened is not been determined.
+predicted string: He was born in New York City, but grew up in the Bronx.
+################################################
+
+
+target string: Her disapproving mother, Jacqueline, lives on but is rarely seen.
+predicted string with tf:  fatherving father, Maryeline, was in the is not seen.
+predicted string: He was born in New York City, and lived there until his death at the age of 21.
+################################################
+
+
+target string: All members of the Bouvier family (except, of course, Marge) smoke heavily and have gruff voices and sarcastic, snarky demeanours.
+predicted string with tf:  of of the familycher family wereincluding for of course, thearge and were cigars and are aff,. a remarks sometimesidey remarkseanours.
+predicted string: He was married to his high school sweetheart, Barbara (née Kiely) and they had three children.
+################################################
+
+
+target string: None of the other Bouvier family members approves of Marge's marriage to Homer.
+predicted string with tf:  of the three threecher brothers members were of thearge's decision to the.
+predicted string: He was elected to the House of Representatives in 1964.
+################################################
+
+
+target string: His behaviour is often oafish, clumsy, and insensitive, but he still remains lovable.
+predicted string with tf:  father was often describedcish and and, and often, and he is manages aovable.
+predicted string: He was born in Washington, D.C., and grew up in New York City's Lower East Side.
+################################################
+
+
+target string: Over the years he has become one of the notable dads in television and the possible template for most bumbling albeit well-meaning fathers.
+predicted string with tf:  the years, has been a of the most figures in the, film film father for a ofachel fathers successful-meaning fathers.
+predicted string: He was a prolific writer and editor, as well as an author of several books.
+################################################
+
+
+target string: He spends a great deal of his time at Moe's Tavern with his lifelong friends Barney, Carl, Lenny, and bartender Moe.
+predicted string with tf:  was his lot deal of time time in the's,, his wife friend, and John, andenny, and George,.
+predicted string: He was a member of the United States House of Representatives from Washington, D.C., and served one term (1947-1948) before being elected to the Senate in 1948.
+################################################
+
+
+target string: He has rage issues and has been physically and violently abusive, often towards his son, whom he has strangled and even struck on numerous occasions.
+predicted string with tf:  was been issues, is been known abusive verbally abusive to and to his wife, who he has calledangled. beaten physically with the occasions.
+predicted string: He is the father of three children, one of whom was born in New York City.
+################################################
+
+
+target string: Four months later, he was killed by a German sniper in World War II.
+predicted string with tf:  years later, he was killed by a car soldier in the War II.
+predicted string: He was a member of the Republican National Committee, where he served as chairman from 1964 to 1968.
+################################################
+
+
+target string: He was also the father of 3 children, including actress Drew Barrymore.
+predicted string with tf:  was a a first of the children, including the and Barrymore,
+predicted string: He was born in New York City and raised in Manhattan.
+################################################
+
+
+target string: His parents divorced when John was around 6 years old in 1935, but he claimed (most likely fallaciously) to have met his father only once.
+predicted string with tf:  father were in he was a 18 years old and 18, and he remained thatand likely falsely from) that have been his future in when,
+predicted string: He was the father of four children, including two sons and a daughter.
+################################################
+
+
+target string: John ran away at age 17 and signed a film contract, but he repeatedly abandoned leading roles and had no major film career.
+predicted string with tf:  was for from the 17 from married up contract contract with which he was refused the the in was to success roles roles.
+predicted string: He was a member of the U.S. Senate from Georgia, where he served two terms (1997-2001) and one term (2003-2005) in the United States House of Representatives.
+################################################
+
+
+target string: He was cremated, and the ashes were interred in the Eden Memorial Park Cemetery in Mission Hills, Los Angeles, California.
+predicted string with tf:  was aated in and his ashes were scatteredred in the family Cemetery Cemetery Cemetery in New,, New Angeles. California.
+predicted string: He was a member of the New York City Police Department (NYPD) from 1963 to 1967.
+################################################
+
+
+target string: Aged 86 at death, Groucho was the longest-lived of all the Marx brothers, though younger brother Zeppo survived him by two years.
+predicted string with tf:  few 18, the, heertcho Marx the first-serving American the the presidents brothers, and he brother Georgeke was until by a years.
+predicted string: He was born on April 23, 1887 and died on June 6, 1969 at the age of 56.
+################################################
+
+
+target string: Groucho did a German accent.
+predicted string with tf: eraldcho Marx not lot film,
+predicted string: He was married to his high school sweetheart, the former Mimi and they had three children.
+################################################
+
+
+target string: He was the best-known of modern Brazilian writers, with his work translated into some 30 languages and popularized in film, notably Dona Flor and her Two Husbands in 1978.
+predicted string with tf:  was a first knownknown of the American actors, and a most appearing into English of languages, hisized by the, television in Qu Mariaa the novel Sistersbands, the.
+predicted string: He was a member of the National Football League (NFL), and played for the Philadelphia Eagles.
+################################################
+
+
+target string: In this year, he released his first book, O País do Carnaval.
+predicted string with tf:  the year's the was a first book, ".'s, Reaval,
+predicted string: He was married and had two children.
+################################################
+
+
+target string: Marvin Pierce Bush (born October 22, 1956) is the youngest son of George H. W. Bush and Barbara Pierce, and brother of George W., John (Jeb), Neil and Dorothy.
+predicted string with tf: riage was was was19 March 1, 18) is a father son of President Bush. Bush. Bush and Mary Bush. and the of George Bush. Jr,George.) and, Mary.
+predicted string: He was elected to the United States House of Representatives in 1946, and served one term (1946-1947) as a member of the Democratic Party.
+################################################
+
+
+target string: He is named for his maternal grandfather.
+predicted string with tf:  was a after his father grandfather,
+predicted string: He was married to his first wife, Mabel, until she died in 2002.
+################################################
+
+
+target string: He became a banker in Boston and was active in the local Democratic Party.
+predicted string with tf:  was a member in the, later a in the Boston Republican Party.
+predicted string: He was born in New York City, but grew up in the Bronx.
+################################################
+
+
+target string: HCC is a publicly traded insurance company on the New York Stock Exchange.
+predicted string with tf: erman was a private funded company company, the New York Stock Exchange.
+predicted string: He was a member of the U.S. House of Representatives, where he served as Majority Leader from 1977 to 1981.
+################################################
+
+
+target string: During his seventh-grade school year, Coltrane experienced three deaths in his close-knit family; he lost his aunt, his grandfather, and his father.
+predicted string with tf:  the time yeargrade year years, he.ane was a major in his family familyknit family, his was his mother, his mother, and his father.
+predicted string: He was born in Brooklyn, New York and grew up in the Upper East Side of Manhattan.
+################################################
+
+
+target string: Coltrane began playing music and practicing obsessively at about this time.
+predicted string with tf: onelane was his the in acting hisively in the the time.
+predicted string: He was born on September 24, 1881 in Bakersfield, California.
+################################################
+
+
+target string: Though he was active before 1955, his prime years were between 1955 and 1967, during which time he reshaped modern jazz and influenced generations of other musicians.
+predicted string with tf:  he was a in the, he career years were spent 1955 and 1957, when which he he wasaped the American and became the of musicians musicians.
+predicted string: He was a member of the New York City Police Department and served as an assistant district attorney.
+################################################
+
+
+target string: He passed away from liver disease in his home in Dix Hills, New York.
+predicted string with tf:  was away on cancer cancer in January sleep in theerry Hills, New Jersey,
+predicted string: He is married with two children and a daughter.
+################################################
+
+
+target string: Jon is known in the NBA because of the courage and determination he shows on defense and in the clutch time.
+predicted string with tf:  Stewart a for the United as he his way he determination he showed in the. in the courtroom of he
+predicted string: He was the father of two children and a grandfather to three grandchildren.
+################################################
+
+
+target string: He is a sharp shooter from the three point range and also a very accurate free throw shooter.
+predicted string with tf:  was a former-, the right- stance, is a good good shooter- shooter.
+predicted string: He was a member of the Democratic National Committee from 1972 to 1974.
+################################################
+
+
+target string: His nickname is Johnny B. Goode.
+predicted string with tf:  father was "..
+predicted string: He was born in New York City, but grew up in the Bronx.
+################################################
+
+
+target string: Shortly afterwards he retired from the Army as a brevet major.
+predicted string with tf:  after, was from the Navy and a lieutenantvet lieutenant general
+predicted string: He was born in London, England and raised in New York City.
+################################################
+
+
+target string: In 1874, at the age of 23, Gifford was a Lieutenant in the 2nd Battalion, 24th Foot (later the South Wales Borderers), British Army during the First Ashanti Expedition, when the following deed took place for which he was awarded the
+predicted string with tf:  the85, the the age of 16, heertord married elected member in the Britishnd Continental of 4th Regiment,later the 24 Carolina Regimenterers) and Royal, the American Worlddown War. and he British year was place. the he was later the Medal
+predicted string: He was a member of the United States House of Representatives, where he served two terms (1955–1956) and from 1956 to 1958.
+################################################
+
+
+target string: He graduated and practiced law in a small firm which folded, then moved on to the firm of Rosenman, Colin, Kaye, Petschek and Freund, which had CBS Records as a client.
+predicted string with tf:  was from became law in New private town in was in and was to to a University of thebl & which, and,, andchk, Kund, which was a Radio. its subsidiary.
+predicted string: He was also known as "The Man with the Golden Gun" and for his role in a number of films, such as The Three Musketeers.
+################################################
+
+
+target string: In the 1970s, Arista also had an extensive jazz line, most notably its Freedom imprint, concentrating on contemporary, sometimes avant-garde, musicians and widely praised reissues from the legendary Savoy label.
+predicted string with tf:  the earlys, helo was became a affair career career, which notably with first song, which on the jazz jazz controversialant-garde, jazz. compos popular jazzissues of the 1960 jazzoy label.
+predicted string: He was married to his first wife, Margaret and they had two daughters, Mary Anne (who died in infancy) and Sarah.
+################################################
+
+
+target string: She was seen as a useful conduit for contracting an alliance between Portugal and England, after the treaty of the Pyrenees in 1659 where Portugal was arguably abandoned by France.
+predicted string with tf:  was married in a strong ally for the the agent with the and the, and the latter was 18 Treatyrenees was 1888. she had granted the by the.
+predicted string: He was born on October 16, 1901 in Brooklyn, New York and grew up in the Bronx.
+################################################
+
+
+target string: Following the restoration of Portuguese independence from Spain, and her father's accession to the throne on December 1, 1640, Catherine was engaged to Charles II.
+predicted string with tf:  the war of the independence in Spain in the the husband's returnion to the Spanish, May 1, 1892, she became appointed to the de of
+predicted string: He was born in New York City and grew up in the Bronx. He graduated from Yale University, where he majored in English with a degree in political science.
+################################################
+
+
+target string: Charles II married on May 3 or May 21, 1662, in Portsmouth, and her dowry brought Tangier and Bombay to British control.
+predicted string with tf:  was was his June 4, 4 4, 1897, and the, England they firstager was theier to the together the Columbia.
+predicted string: He was a member of the United States House of Representatives from 1986 to 1993.
+################################################
+
+
+target string: She was not a particularly popular choice of queen, being a Roman Catholic, and her religion prevented her ever being crowned, since she could not take part in an Anglican service.
+predicted string with tf:  was married a fan popular woman for a, and a woman Catholic, and was husband was her from marrying elected. and she was not be part in the actualan ceremony.
+predicted string: He is the father of three children, one of whom was born in New York City.
+################################################
+
+
+target string: Despite Charles's reputation as a womaniser, Catherine never gave birth to a live heir, though she had several pregnancies, the last being in 1669.
+predicted string with tf:  his' efforts as a goodizer, he was married birth to a child child. and she did a children. including first of in the92.
+predicted string: He was also a member of the United States Army, where he served as Chief of Staff from 1945 to 1946.
+################################################
+
+
+target string: Her position was a difficult one, as Charles continued to have children by his mistresses, but he insisted that she be treated with respect, and refused to divorce her.
+predicted string with tf:  husband as a major one, as she was to be a, his wiferesses, and she was on he be allowed as respect and and she to have her.
+predicted string: He was born on September 3, 1894 in New York City and grew up in the Bronx.
+################################################
+
+
+target string: Following his death, Catherine remained in England through the reign of James II of England and returned to Portugal during the joint reign of William III and Mary II.
+predicted string with tf:  the death, his became in the, the rest of Queen Bond, England. the to the in the early reign of Queen IV of Catherine II.
+predicted string: He was also a member of the Republican National Committee, where he served as chairman from 1974 to 1976.
+################################################
+
+
+target string: She died in Lisbon in 1705.
+predicted string with tf:  was in a, 200399,
+predicted string: She was married to the late John Cusack, who served as President of the United States from 1961 to 1963.
+################################################
+
+
+target string: Laurance married Mary French in 1934.
+predicted string with tf: incolnie was his Ann in 18.
+predicted string: He was elected to the U.S. House of Representatives in 1954 and served two terms (1953-1955) as a Democrat.
+################################################
+
+
+target string: Catherine introduced, and made fashionable, the custom of drinking tea in England.
+predicted string with tf: urt was the and later a, the idea of wearing wine in the.
+predicted string: He was the father of three children, two sons and a daughter.
+################################################
+
+
+target string: She was very popular and loved by the people, and the Queens borough of New York City was named after her.
+predicted string with tf:  was married popular with was by many public of especially was family of of New York City was her after her.
+predicted string: He was born in New York City, and grew up in the Bronx.
+################################################
+
+
+target string: They had four children: Frederick Dent Grant, Ulysses S. (Buck) Grant, Jr., Ellen (Nellie) Grant, and Jesse Root Grant.
+predicted string with tf:  were a children, a,,, Johnlysses Grant. Grant19obby), Grant, John., and (Dancyie) Grant, and John Grant..
+predicted string: He was born in New York City and grew up in the Bronx, where he graduated from Stuyvesant High School.
+################################################
+
+
+target string: Hamer erroneously nominated him as Ulysses Simpson Grant, and although Grant protested the change, it was difficult to resist the bureaucracy.
+predicted string with tf: erman wasously believed his for the.es S's for the he he was, nomination, he was ultimately to convince the nomination.
+predicted string: In the late 1960s and early 1970s, President Richard Nixon appointed Henry Kissinger to be Secretary of State.
+################################################
+
+
+target string: Upon graduation, Grant adopted the form of his new name with middle initial only, never acknowledging that the 'S' stood for Simpson.
+predicted string with tf:  his, he was a name of a own name, the name,, and using his he names' stood for '.
+predicted string: He was elected to the United States House of Representatives in 1946 and served two terms (1948-1949) as a member of the Republican Party.
+################################################
+
+
+target string: He graduated from West Point in 1843, ranking 21st in a class of 39.
+predicted string with tf:  was from the Point in 194292, and himst in the class of about3
+predicted string: He became a member of the National Football League and was inducted into the Pro Football Hall of Fame in 1986.
+################################################
+
+
+target string: At the academy, he established a reputation as a fearless and expert horseman.
+predicted string with tf:  the time, he was the scholarship as a scholar leader courageous student trainer.
+predicted string: He was the son of a physician who had been born in Philadelphia, Pennsylvania.
+################################################
+
+
+target string: Grant drank distilled liquor and, during the American Civil War, began smoking huge numbers of cigars (one story had it that he smoked over 10,000 in five years) which may well have contributed to his throat cancer of later life.
+predicted string with tf:  was heavily water, was in his Prohibition Civil War, was to marijuana quantities of cigarettes,which of was him that he had a 1,000 in a days). and he have have contributed to his death const. the years.
+predicted string: He was a member of the Republican National Committee from 1968 to 1972, when he joined the Democratic Party.
+################################################
+
+
+target string: Kennedy was a member of the prominent Kennedy political family.
+predicted string with tf: edy was born member of the Democratic Kennedy family family.
+predicted string: He is married with three children, one of whom was born in the U.S.
+################################################
+
+
+target string: Considered the icon of American liberalism, Kennedy is the youngest person ever to be elected president of the country, at the age of 43.
+predicted string with tf: idered a most of the conservatism, he was a father president to to be elected president of the United. and age age of 49.
+predicted string: He was married to his high school sweetheart, Mary Anne (née Hines), and they had two sons, Jack and John.
+################################################
+
+
+target string: During this period, he published Profiles in Courage, highlighting eight instances in which U.S. Senators risked their careers by standing by their personal beliefs.
+predicted string with tf:  the time, he was ailes in Courage, a the of of which he.S. soldiers had their lives by opposing up their convictions beliefs.
+predicted string: He was born on October 29, 1882 in New York City and grew up in the city's Lower East Side.
+################################################
+
+
+target string: He was honorably discharged in early 1945, just a few months before the Japanese surrendered.
+predicted string with tf:  was aably discharged from the 1945, and before few months after the end surrender.
+predicted string: He was elected to the United States House of Representatives in 1980, where he served two terms.
+################################################
+
+
+target string: He was reelected twice, but had a mixed voting record, often diverging from President Harry S. Truman and the rest of the Democratic Party.
+predicted string with tf:  was a- to, in lost to less record record, and votingting from the Reagan Truman. Truman's his Republican of the Republican Party.
+predicted string: He was a member of the National Guard during World War II.
+################################################
+
+
+target string: However, the U.S. Navy accepted him in September of that year.
+predicted string with tf: , he first.S. Army was the into the 18 that year.
+predicted string: He was the son of a prominent New York City politician, William S. O'Brien, Jr., and his wife, Frances (née Smith), who were born in 1904.
+################################################
+
+
+target string: By the 1964 election, Reagan was an outspoken supporter of conservative Republican Barry Goldwater.
+predicted string with tf:  the time season, the had the incumbent supporter of the causes candidates Goldwater,
+predicted string: He was the youngest member of the United States Senate, having been born in 1894.
+################################################
+
+
+target string: Though these requests were initially laughed off by Reagan, he says in his autobiography, he eventually gave in, after countless sleepless nights.""
+predicted string with tf:  he were were not denied off, the, he eventually he his memoir that " was gave in to and the yearspless nights,
+predicted string: He was born in New York City, where he grew up as the son of an Irish immigrant mother and a Jewish father.
+################################################
+
+
+target string: His paternal great-grandfather, Michael Reagan, immigrated to the United States from Ballyporeen, County Tipperary, Ireland in the 1860s.
+predicted string with tf:  first grandfather-grandfather, John,, wasigrated from the United States from Englandordehoree, Ireland Corkipperary, Ireland, 18 lates.
+predicted string: He was born in New York City and grew up on the Lower East Side of Manhattan.
+################################################
+
+
+target string: Prior to his immigration, the family name was spelled Regan.
+predicted string with tf:  to his death to he president lived was O "gan.
+predicted string: He was born on April 4, 1881 in Washington, D.C.
+################################################
+
+
+target string: His maternal great-grandfather, John Wilson, immigrated to the United States from Paisley, Scotland in the early 1800s.
+predicted string with tf:  father grandfather-grandfather, John Henry, wasigrated from the United States from Englandisley, Pennsylvania, 18 late 19s.
+predicted string: He was married to his second wife, Lorna, whom he had two sons and a daughter with.
+################################################
+
+
+target string: His presidency was marked by new economic policies, dubbed Reaganomics and a confrontational foreign policy towards the Soviet Union and Socialist movements around the world.
+predicted string with tf:  father was marked by his policies policies, including theomics, the newational approach policy. the Soviet Union. the bloc. the world.
+predicted string: He was married to his high school sweetheart, the former actress and model Mary Tyler Moore.
+################################################
+
+
+target string: Reagan tried repeatedly to go overseas for combat duty, but was turned down because of his astigmatism.
+predicted string with tf: agan was to to get to to his duty, but was unable down by of his ageigmatism.
+predicted string: He was also a member of the Democratic National Committee (DNC) and served in the House of Representatives from 1967 to 1968.
+################################################
+
+
+target string: Reagan was reelected in a landslide in the 1984 presidential election, defeating Carter's Vice President Walter Mondale by winning 49 of 50 states and receiving nearly 60 percent of the popular vote.
+predicted string with tf: agan was aelected to 1956 landslide in the 1964 presidential election, defeating Republican, Republican President, Mondale, a the percent the electoral. the the three percent of the popular vote.
+predicted string: He was born in Los Angeles, California on March 9, 1873 and grew up in the San Fernando Valley before moving to New York City as a young man.
+################################################
+
+
+target string: Reagan developed an early gift for storytelling and acting.
+predicted string with tf: agan was a interest interest for the, storytelling,
+predicted string: He is the father of three children, one of whom was killed in a car accident on his way to school.
+################################################
+
+
+target string: He was a radio announcer as an affiliate of the Chicago Cubs baseball games, getting only the bare outlines of the game from a ticker and relying on his imagination and storytelling gifts to flesh out the game.
+predicted string with tf:  was a member personality for well announcer of the New radio, team, and the one occasionalst of the game, the radioer tape a on the radio. his.. tell out the story.
+predicted string: He was one of the first men to be inducted into the National Football League (NFL) Hall of Fame.
+################################################
+
+
+target string: Once in 1934, during the ninth inning of a Cubs-St. Louis Cardinals game, the wire went dead.
+predicted string with tf:  he the, he the war season of the game gameWarros Louis game game, the team was out.
+predicted string: He was born in New York City, but spent most of his childhood in the Bronx.
+################################################
+
+
+target string: Reagan smoothly improvised a fictional play-by-play (in which hitters on both teams fouled off pitches) until the wire was restored.
+predicted string with tf: agan was navig his newized,within-play ofwith which he were the sides wereled each to to and he end was cut to
+predicted string: He was born on March 6, 1892 in New York City and grew up in Brooklyn.
+################################################
+
+
+target string: When left-wing SLA terrorists kidnapped Patty Hearst in Berkeley and gave a list of demands that included free distribution of food to the poor, Reagan suggested that it would be a good time for an outbreak of botulism.
+predicted string with tf:  he inhanded activistA leader were and Hearst from the, forced her speech of her to she the speech of the, the poor, she signed that she be be a good idea to her independent of theulism.
+predicted string: He was the father of three sons, one of whom died in an automobile accident when he was six years old.
+################################################
+
+
+target string: Hodgkin and Huxley shared the prize that year with John Carew Eccles, who was cited for research on synapses.
+predicted string with tf: omergson was hisirschley were a same for year, the andw,les, who was the for his on theesthesia in
+predicted string: He was elected to the California House of Representatives in 1968, where he served one term (1969–1970) as a member of the Democratic Party.
+################################################
+
+
+target string: Hodgkin and Huxley's findings led the pair to hypothesize ion channels, which were confirmed only decades later.
+predicted string with tf: ermangson was hisirschley were son were to government to theize that the, which would later by by later by
+predicted string: He was born in New York City and grew up in the Bronx.
+################################################
+
+
+target string: He was named a first team All-American in his junior and senior seasons.
+predicted string with tf:  was a after member lieutenant captain-American by the senior year senior seasons.
+predicted string: He was born in Newark, New Jersey and grew up there.
+################################################
+
+
+target string: In 1986, Schwarzenegger married TV journalist Maria Shriver, niece of the late President of the United States John F. Kennedy.
+predicted string with tf:  the, he was his actress and Shriver, who of the late actor Ronald the United States, F. Kennedy.
+predicted string: He was born on March 3, 1884 and died on April 11, 1955.
+################################################
+
+
+target string: Klaas finished his career at Washington having played in 69 games, scoring ten goals and 21 assists.
+predicted string with tf: athasen his career as the State served for the films, including a touchdowns and one assists.
+predicted string: He was the father of three sons, one of whom died in a car accident when he was only 11 years old.
+################################################
+
+
+target string: He was drafted by the San Jose Earthquakes in the third round of the 2005 MLS SuperDraft, but opted to not show up for camp, instead signing with the nearby Sounders.
+predicted string with tf:  was a into the Army Francisco Stateakes in the late quarter of the 1962 MLB DraftDraft, but was to play play up. the. instead choosing with the San San.
+predicted string: He was married to his high school sweetheart, Dottie. They had two children, and he died of a heart attack at the age of 46 on March 19, 1943 in New York City.
+################################################
+
+
+target string: While enjoying popular but little critical success during his own lifetime, Kerouac is now considered one of America's most important authors.
+predicted string with tf:  in his music not- acclaim, the time time, heouac was now a a of the's most influential political.
+predicted string: He was also the father of two sons, Alexander (born in 1942) and Daniel (1946), who were both born in New York City.
+################################################
+
+
+target string: Kerouac's spontaneous, confessional language style inspired other writers, including Tom Robbins, Richard Brautigan, Hunter S. Thompson, Ken Kesey, and Bob Dylan.
+predicted string with tf: athmitac was father decision unessional, was was the writers, including the Wolfe, who Bachutigan, and S. Thompson, and Burnsesey, and John Dylan.
+predicted string: He later served as a colonel in the United States Army during World War II.
+################################################
+
+
+target string: He started writing his first novel, called The Town and the City.
+predicted string with tf:  was his in autobiography novel, " " Last of Country City,
+predicted string: He was the son of a well-known New York City mayor, William M. Kennedy Jr., and his first wife, Eunice Kennedy Shriver.
+################################################
+
+
+target string: It was published in 1950 and earned him some respect as a writer.
+predicted string with tf:  was a in the. was the the notoriety from a writer.
+predicted string: He was born in New York City, the son of a Russian immigrant father and an American mother.
+################################################
+
+
+target string: His parents, Leo-Alcide Kerouac and Gabrielle-Ange Lévesque, were natives of the province of Quebec in Canada.
+predicted string with tf:  father were who andHenryphides andouac and Maryle KerMariea Keréonque, were both of France French of Quebec, the.
+predicted string: He was the youngest president of the United States, having been born in 1887.
+################################################
+
+
+target string: Like many other Quebecers of their generation, the Lévesques and Kerouacs were part of the Quebec emigration to New England to find employment.
+predicted string with tf:  many of Americansois, the generation, he familyéonque were theouac were born of the Frenchoisigrant to the York. escape work.
+predicted string: He was born in New York City and grew up in the Bronx, where he graduated from Stuyvesant High School.
+################################################
+
+
+target string: Jack didn't start to learn English until the age of six.
+predicted string with tf: ie't have out play English until he age of 12.
+predicted string: He died of a heart attack on July 5, 2004 at the age of 69.
+################################################
+
+
+target string: At home, he and his family spoke Quebec French.
+predicted string with tf:  the, he was his wife were ofois.
+predicted string: He was also a member of the U.S. House of Representatives, serving from 1983 to 1986.
+################################################
+
+
+target string: That year, he also married Rose Fitzgerald, the daughter of John F. Fitzgerald, the Democrat mayor of Boston and probably the most recognized politician in the city.
+predicted string with tf:  year, he was became hismary, a daughter of the Fitzgerald. Fitzgerald, Jr first and of New. the the most famous politician in the city.
+predicted string: He was elected to the House of Representatives in 1956, and served one term (1957–1958) as a member of the New York City Council.
+################################################
+
+
+target string: At an early age, he was profoundly marked by the death of his elder brother Gérard, later prompting him to write the book Visions of Gerard.
+predicted string with tf:  the early age, he was a affected by his loss of his father brother,ertard, who known him to become a book,isions of a.
+predicted string: He was the father of two children, a son and a daughter.
+################################################
+
+
+target string: He also played for the New Haven Eagles and Bronx Tigers of the Canadian-American Hockey League.
+predicted string with tf:  was served in the New York Patriots, the Bom. the New FootballAmerican Football League.
+predicted string: He died on March 12, 1991 at the age of 78.
+################################################
+
+
+target string: Besides his film roles, he appeared on the television screen often later is his career.
+predicted string with tf: , work career, he also in the television series in as in a own as
+predicted string: He was born in New York City, but grew up in the Bronx.
+################################################
+
+
+target string: For his contribution to the television industry, J. Carrol Naish has a star on the Hollywood Walk of Fame at 6145 Hollywood Blvd.
+predicted string with tf:  a part to the film series, he. Edgarrol wasism was been book on the cover Walk of Fame, theth Hollywood Boulevard.
+predicted string: He was married to the former Virginia Governor, Mary E. Babbitt, and they had two children, John (born in 1941) and Barbara (baptized on April 3, 1943), both of whom are now deceased.
+################################################
+
+
+target string: While Franklin was finding himself in London, Deborah married a man named John Rodgers.
+predicted string with tf:  in was in his, a, he was the fellow named John,,
+predicted string: He is married to his second wife, the former Barbara.The couple has three children and they have one daughter named Mary Elizabeth who was born in May of this year.
+################################################
+
+
+target string: This proved to be an regrettable decision.
+predicted string with tf:  was to be a errorable mistake.
+predicted string: After the war, he moved to San Francisco.
+################################################
+
+
+target string: With Rodgers' fate unknown, and bigamy an offense punishable by public whipping and imprisonment, Deborah was not free to remarry.
+predicted string with tf:  the, help in, he with changes in unknown, by death office, imprisonment, the was forced able to leavearry.
+predicted string: He was married to his second wife and they had two children, a son named James (born 1955) and a daughter named Mary.
+################################################
+
+
+target string: When he first arrived he worked in several printer shops around town.
+predicted string with tf:  he was arrived in was as the offices's in the.
+predicted string: He is the father of four children, three sons and a daughter.
+################################################
+
+
+target string: However, he was not satisfied by the immediate prospects.
+predicted string with tf: , he was not a with the results results of
+predicted string: He was elected to the Senate in 1968 and served until 1972.
+################################################
+
+
+target string: His wife is Barbara Bush.
+predicted string with tf:  father, the,,
+predicted string: He was elected to the United States House of Representatives in 1944.
+################################################
+
+
+target string: Two weeks later she married Michael Jackson on May 18, 1994.
+predicted string with tf:  years later, was the J, the 4, 1956.
+predicted string: He was born on October 8, 1894.
+################################################
+
+
+target string: She was First Lady of the United States from 1993 to 2001, as the wife of President Bill Clinton.
+predicted string with tf:  was married Lady of the United States from 1981 to 1997. when well wife of President Bill Clinton.
+predicted string: He is the father of three sons, one of whom was killed in a car accident on his way to school.
+################################################
+
+
+target string: Following this he returned to Philadelphia in 1726 with the help of a merchant named Thomas Denham, who gave Franklin a position as clerk, shopkeeper and bookkeeper in Denham's merchant business.
+predicted string with tf:  the, was to the, the99, his help of his friend, John Hning, who was him a job as a of andkeeper and bookkeeper at theham's office's.
+predicted string: He was born in the Bronx, New York on March 20, 1885.
+################################################
+
+
+target string: The cgs unit of electric charge has been named after him: one franklin (Fr) is equal to one statcoulomb.
+predicted string with tf:  firstasket were was the cars was been known the the, the ofinc,19aser and a to one franku, ( (
+predicted string: He was a member of the New York City Board of Aldermen, where he served as chairman from 1985 to 1989.
+################################################
+
+
+target string: His mother, Abiah Folger, was born in Nantucket, Massachusetts on August 15, 1667, to Peter Folger, a miller and schoolteacher, and his wife Mary Morrill a former indentured servant.
+predicted string with tf:  father, Maryig,lett, was a in 18ilesucket, Massachusetts, March 15, 18,, and John andger, a lawyerer and histeacher, and his wife, Elizabethley Fol nurse schoolured servant.
+predicted string: He was born in Baltimore, Maryland and grew up on a farm with his parents.
+################################################
+
+
+target string: Sometime during the second half of 1683, the Franklins left England for Boston, Massachusetts; and while in Boston, they had several more children, including: Josiah Jr. (August 23, 1685), Ann (January 5, 1687), Joseph (
+predicted string with tf: id in the early half of the92, the family Sin were the and the, where, they the there Boston, they were a children children, including a
+predicted string: He was a member of the United States House of Representatives from 1969 to 1972, and served in the Senate from 1973 to 1975.
+################################################
+
+
+target string: While the identity of William's mother remains unknown, perhaps the responsibility of an infant child gave Franklin a reason to take up residence with Deborah Read.
+predicted string with tf:  in two of the's father was a, she she family of his illegitimate son is her a name to be the the in his..
+predicted string: He was married to his first wife, Eunice (née Smith), and they had three children.
+################################################
+
+
+target string: His father, Josiah Franklin, was a tallow chandler, a maker of candles, who married twice.
+predicted string with tf:  father, aiah,, was a prominent, salesmanaserler who a former of cigars, and was his and
+predicted string: He was a member of the Democratic National Committee (DNC) from 1972 to 1976.
+################################################
+
+
+target string: His schooling ended at ten and at 12 he became an apprentice to his brother James, a printer who published the New England Courant.
+predicted string with tf:  father was in the years he the, was a assistant to a father,, who lawyer and was a first York Journalant.
+predicted string: He was a member of the United States Navy from 1962 to 1964, where he served as an officer in the Persian Gulf War.
+################################################
+
+
+target string: While a printing apprentice he wrote under the pseudonym of 'Silence Dogood' who was ostensibly a middle-aged widow.
+predicted string with tf:  in student executive, was a the pseudonym " "Johnk''' and was a a pseudonym-class man.
+predicted string: He was a member of the United States House of Representatives, where he served as an aide to President George H. W. Bush and Secretary of State Henry Kissinger.
+################################################
+
+
+target string: His brother and the Courant's readers did not initially know the real author.
+predicted string with tf:  father, sister otherten's father were not like agree that name name of
+predicted string: He was a member of the Republican Party, and served in the United States House of Representatives from 1957 to 1961.
+################################################
+
+
+target string: His brother was not impressed when he discovered his popular correspondent was his younger brother.
+predicted string with tf:  father, a a by he was that father father, a father brother.
+predicted string: He was married to his high school sweetheart, the former Jacqueline Kennedy Onassis, and they had three children.
+################################################
+
+
+target string: He left his apprenticeship without permission and in so doing became a fugitive.
+predicted string with tf:  was the jobhip in a and was the doing, a full from
+predicted string: He was the first president to have a son born on Christmas Day, in 1894.
+################################################
+
+
+target string: He entered the U.S. Army as a private in 1941, was commissioned, and served in the Pacific theater.
+predicted string with tf:  was the military.S. Navy in a private in the, and promoted as and served in the Army Theater in
+predicted string: He was born in the small town of Loxahatchee, Washington and grew up on a farm with his family.
+################################################
+
+
+target string: At the end of the war he was a captain on General Douglas MacArthur's intelligence staff.
+predicted string with tf:  the time of the war, was awarded member in the MacArthur MacArthur's staff unit.
+predicted string: He was born on July 3, 1881 in New York City and grew up in Manhattan.
+################################################
+
+
+target string: Early in life, he developed an interest in politics and history, and, during the war years, a special admiration for Winston Churchill, whom he would later cite as an important influence.
+predicted string with tf:  in his, he was a interest in the and was, and was in the early,, he love interest for the Churchill. who he considered later become as a inspiration influence.
+predicted string: He was a member of the New York City Board of Education, where he served as chairman from 1984 to 1986.
+################################################
+
+
+target string: After he left the Pentagon, he became publisher and chairman of Forbes magazine, where over the next decade he wrote frequently on defense and national security issues.
+predicted string with tf:  the was the Navy, he became a of editor of the magazine, where he the next decade he published several about the issues foreign security issues.
+predicted string: He was also a member of the National Guard, where he served during World War II.
+################################################
+
+
+target string: In 1990, he wrote Fighting for Peace, an account of his Pentagon years; in 1996, Weinberger co-authored a book entitled The Next War, which raised questions about the adequacy of U.S. military capabilities following the end of the Cold War.
+predicted string with tf:  the, he was a for the, a autobiography of his experiences service, he it, heberger wrote-authored the book, The War Generation, which was the about the futureacy of the.S. military capabilities. the Vietnam of World Cold War.
+predicted string: He was married to his high school sweetheart, Elizabeth (née Smith), and they had three children.
+################################################
+
+
+target string: After he published his book, his colleages from the Reagan administration broke contact and refused to speak with him.
+predicted string with tf:  the was his book, he wifeage, the University administration began up with he to speak to him.
+predicted string: He was elected to the House of Representatives in 1967 and served two terms (1968-1969) as a member of the Democratic Party.
+################################################
+
+
+target string: Mildred was the sister of Al Rinker, who also sang with Paul Whiteman.
+predicted string with tf: ackred was born first of theineoker, a was served in the McCartneyeman.
+predicted string: He was born on March 8, 1894 in Washington, D.C.
+################################################
+
+
+target string: He is the leader of the Adalet ve Kalkinma Partisi (AK Party, or Justice and Development Party).
+predicted string with tf:  was a father of the Americanirbert Leaguealowi party,isan,theA) the the Party Peace Party)
+predicted string: He was elected to the United States House of Representatives in 1972, and served one term (1975-1977) as a member of the Democratic Party.
+################################################
+
+
+target string: Erdoğan played semi-professional football for 16 years and worked for Istanbul's municipal transport company, and became active in politics with the now-defunct Islamist National Salvation Party (Milli Selâmet Partisi), led by Necmettin Erbakan
+predicted string with tf: ddman was a-professional football for the years, was as the's F government company, the was a in the in the Turkish-defunct Turkish party Democratic Front.NSenwayimh)i) which by theessét Al.máhan.
+predicted string: He was married to his high school sweetheart, Mary Ann (née Smith) and they had two children, a son named James Thomas who died in infancy.
+################################################
+
+
+target string: Soon after he was born, he moved to New York with his father, where he began acting and playing music.
+predicted string with tf:  after, was born, he was to New York City his parents, who he was to as writing in.
+predicted string: He served in the United States Army during World War II.
+################################################
+
+
+target string: He soon recorded Desireless, and it became a hit across Scandinavia and the rest of Europe, and an American release came in 1998.
+predicted string with tf:  was became ae, a in was a hit on theia, the United of the. where was international hit on out the.
+predicted string: He was a member of the New York City Council from 1993 to 1997.
+################################################
+
+
+target string: In 1912, his interests developed into using his mathematical skills assisting Henry Moseley on X-ray diffraction.
+predicted string with tf:  the, he father in into the the father skills to in Fordancley, his-Men machinesraction,
+predicted string: He was elected to the New York City Council in 1964 and served two terms (1965-1967) as a member of the city council.
+################################################
+
+
+target string: Under President Gerald Ford, Cheney became Assistant to the President and the youngest White House Chief of Staff in history.
+predicted string with tf:  the Reagan Ford, the was the Secretary the President, Secretary Secretary member House Chief of Staff in history.
+predicted string: He was married to his high school sweetheart, Mitzi (née Pomeroy), with whom he had two children.
+################################################
+
+
+target string: He was campaign manager for Ford's 1976 presidential campaign, while James Baker served as campaign chairman.
+predicted string with tf:  was a manager for the in presidential presidential bid, and his Ford was as his manager.
+predicted string: He was born in New York City, but grew up in the Bronx.
+################################################
+
+
+target string: However, a police arrest card similar to the one that haunted President George W. Bush and maintained by the Rock Springs Police Department shows that Cheney was fined $100 for his second DWI conviction.
+predicted string with tf: , he few officer in was to the one used was the George W. Bush in his by his Nationalwell Police Department in that he was not $10, his actions DUII..
+predicted string: He was a member of the United States Senate from New York City, where he served two terms (1962–1964) and one term (1965–1969) as an Assistant Attorney General.
+################################################
+
+
+target string: At the time, it was not possible for the authorities in each area to link the two convictions which would have resulted in the second offence being viewed much more seriously.
+predicted string with tf:  the time, he was the known to the United to the state to determine the two incidents. were have been in the death trial. dropped as more favorably.
+predicted string: He was born in New York City, but moved to Chicago as a young man. He graduated from the University of Illinois at Urbana-Champaign with a bachelor's degree in English literature and history.
+################################################
+
+
+target string: Since his second Wyoming arrest, Cheney has had no further convictions.
+predicted string with tf:  then death marriage campaign, he has been a further public for
+predicted string: He was born in New York City on March 23, 1921.
+################################################
+
+
+target string: One of his first known ancestors was Ralph de Chesney, Sire of Quesnay who fought on the side of William the Conqueror in the Battle of Hastings in 1066.
+predicted string with tf:  of the most acts roles was John Wald laney, who. of theuesadaoy, was in the French of the Henry Conqueror against the Battle of the in 1766.
+predicted string: He was elected President of the United States in 1960, and served from 1964 to 1968.
+################################################
+
+
+target string: Cheney was elected to represent Wyoming in the U.S. House of Representatives to replace Teno Roncalio, who had resigned from Congress.
+predicted string with tf: ster was a to the the in the United.S. House of Representatives in represent theure,coni,, who was been in the.
+predicted string: He was married to his high school sweetheart, Mary Ann (née Smith), and they had three children.
+################################################
+
+
+target string: George W. Bush in March or April, 2005, to be General Counsel of the Department of Homeland Security.
+predicted string with tf:  W. Bush was the, April of 1963, was visit the of of the United of Defense Security.
+predicted string: He was born in New York City and grew up in the Bronx.
+################################################
+
+
+target string: The Perrys have four children.
+predicted string with tf: HeHe firsts were a children,
+predicted string: He was born in London, England and grew up in New York City.
+################################################
+
+
+target string: When he went to the nearby Shrewsbury School the next year, he lived there as a 'boarder'.
+predicted string with tf:  he was to the United townrevesbury,, following year, he was with until a studentstudenter'
+predicted string: He was born in New York City, where he grew up and graduated from the University of Notre Dame with a degree in English.
+################################################
+
+
+target string: He served in the United States Army in World War II, then got a law degree from Tulane University.
+predicted string with tf:  was as the United States Army from the War II, and in a job degree from theane University.
+predicted string: He was born in the Bronx and grew up in New York City, where he graduated from Stuyvesant High School.
+################################################
+
+
+target string: She currently works for the State Department's Near East Affairs Bureau.
+predicted string with tf:  was resides as the National Department as Bureau East and Office.
+predicted string: He was a member of the Republican National Committee from 1964 to 1968.
+################################################
+
+
+target string: Mary is one of her father's top campaign aides and closest confidantes and lives in Denver, Colorado.
+predicted string with tf:  Ann the of the three's sisters three contributors. is friendsantes. confid in the. Colorado.
+predicted string: He was elected to the U.S. House of Representatives in 1960, and served one term (1961–1963) as a member of the Republican Party.
+################################################
+
+
+target string: He decided after three semesters to take some time off from Yale, on account of difficulty with his studies.
+predicted string with tf:  was to a yearsesters to leave a time off from his and and which of his in his studies.
+predicted string: He was a member of the New York City Council from 1989 to 1993.
+################################################
+
+
+target string: She has authored or co-authored eight books and numerous articles.
+predicted string with tf:  was been two co-authored several books, has articles.
+predicted string: He was elected President of the United States in 1960.
+################################################
+
+
+target string: She served from 1986 to 1996 as Chair of the National Endowment for the Humanities, appointed by Ronald Reagan.
+predicted string with tf:  was as the to 1990 as a of the Board Councilowment for the Artsities, and by President Reagan.
+predicted string: He was the father of five children, two sons and a daughter.
+################################################
+
+
+target string: She was at one time a co-host on CNN's Crossfire.
+predicted string with tf:  was married the time a member-owner of the's "fire with
+predicted string: He is married and has two children.
+################################################
+
+
+target string: She is now a public speaker and author, and a senior fellow at the American Enterprise Institute.
+predicted string with tf:  was married a mother relations and a, and has member lecturer at the American Enterprise Institute.
+predicted string: He is married with three children, one of whom was born in New York City and the other two are from Washington, D.C.
+################################################
+
+
+target string: He received his bachelor's degree in 1965 and master's degree in political science in 1966 both from the University of Wyoming.
+predicted string with tf:  was a first's degree from history from his's degree in 1968 science from 1968 from from the University of Chicago.
+predicted string: In the early 1960s, President Lyndon B. Johnson was elected to a second four-year term as president of the United States.
+################################################
+
+
+target string: Cheney's former chief of staff, Lewis Libby, is one of the main figures under investigation.
+predicted string with tf: ney was father wife of staff, John,by, was now of the most figures in whom by
+predicted string: He was a member of the Democratic Party from 1966 to 1972, when he joined the Republican Party.
+################################################
+
+
+target string: On October 28, Libby was indicted on five felony counts.
+predicted string with tf:  March 4, 18by was born for a counts counts of
+predicted string: He was born and raised in New York City, where he graduated from Columbia University with a degree in political science.
+################################################
+
+
+target string: He was United States Secretary of Defense from 1987 until 1989.
+predicted string with tf:  was born States Secretary of Defense from 1983 to 1993.
+predicted string: He is married and has two children.
+################################################
+
+
+target string: He was undersecretary of Health, Education and Welfare when Weinberger was secretary during the Nixon administration.
+predicted string with tf:  was a theary of defense and Education and Welfare from heberger was appointed of the Reagan administration.
+predicted string: At the time, he was married to his first wife and had four children.
+################################################
+
+
+target string: Carlucci was deputy defense secretary from 1981 until 1986, national security advisor from 1986 until 1987, and defense secretary in 1987, following the resignation of Weinberger, his nomination by President Ronald Reagan and his confirmation in the Senate by a vote of 91 to 1.
+predicted string with tf: riecci was a mayor secretary under 1963 to 1983, when secretary advisor from 1986 to 1988, and then secretary from 1987 until and the resignation of Presidentberger. and successor for President George Reagan. his appointment by the Senate. the vote of 52- 9.
+predicted string: He was elected to the United States House of Representatives in 1944, and served one term (1944–1945) as a member of the Democratic Party.
+################################################
+
+
+target string: He was reportedly less hard-line in policies toward the Soviet Union than Weinberger.
+predicted string with tf:  was a a than-headed than his than the Soviet Union than heberger,
+predicted string: He was a member of the New York City Council from 1993 to 1997.
+################################################
+
+
+target string: He was a naval officer from 1952-54.
+predicted string with tf:  was a member officer in the to19.
+predicted string: He was elected to the House of Representatives in 1944, and served until 1946.
+################################################
+
+
+target string: During his time, he also befriended another actor named Grant Heslov, a close friend and frequent collaborator with Clooney who co-wrote Good Night, and Good Luck., and is the president of Clooney and director Steven Soderbergh's production company Section 8
+predicted string with tf:  the time in he was serveded the American, John Whitelov, who former friend of colleague collaborator of theoney, was-authored thefell and and Good Luck with a the a father of theoney's Company of Spielbergoderbergh. production company, 8.
+predicted string: He was married to his first wife, Mary (née Smith), with whom he had two children: Henry and Elizabeth.
+################################################
+
+
+target string: After the show was cancelled, he played a handyman on the series The Facts of Life.
+predicted string with tf:  the war, over, the was a brief role role the radio, Simpsons of Life.
+predicted string: He was a member of the Democratic National Committee from 1968 to 1971.
+################################################
+
+
+target string: He made his debut as a film director in the 2002 feature Confessions of a Dangerous Mind, an adaptation of the implausible autobiography of groundbreaking TV producer Chuck Barris.
+predicted string with tf:  was his first in a member director in the film film filmessions of a Dangerous Man, starring adaptation of the novelausible novel of the author director John Norrisris.
+predicted string: He was married to his first wife, Mary and they had two children, John (born in 1943) and Anne.
+################################################
+
+
+target string: Lawford later admitted the most terrifying experience of his career was the first musical number he performed.
+predicted string with tf: rence was became that crime important crime of his life was the death time he he ever,
+predicted string: He was born on July 15, 1892 in New York City and grew up in the Bronx.
+################################################
+
+
+target string: Lawford also made his first comedy that same year My Brother Talks To Horses (1947).
+predicted string with tf: rence was served a name appearance appearance year year, Life's About God,1958),
+predicted string: He was the first American president to be sworn in as President of the United States on January 20, 1989.
+################################################
+
+
+target string: It was in Good News (1947) that Lawford won his greatest acclaim as an actor.
+predicted string with tf:  was a theyear that1962) that theton was the first prize, a actor,
+predicted string: He was a member of the Republican Party and served in the House of Representatives from 1963 to 1967.
+################################################
+
+
+target string: He also got to dance and sing as well and held his own against the other cast.
+predicted string with tf:  was had a know with sing with a as was a own in the likes dancers members
+predicted string: He was born in the United States and raised in New York City, where he graduated from Yale Law School with a degree in political science.
+################################################
+
+
+target string: He was the victim of sexual abuse several times in childhood.
+predicted string with tf:  was born son of a assault by times, his.
+predicted string: He died on March 30, 2010 at the age of 81.
+################################################
+
+
+target string: Also as a child he severely injured his arm when he put the arm through a door's glass pane.
+predicted string with tf: , a member, was injured his right in he fell a sword through a window of frame pane,
+predicted string: He was a member of the New York City Council from 1979 to 1983.
+################################################
+
+
+target string: Doctors were able to save the arm, but the injury bothered him for many years.
+predicted string with tf:  who also to diagnose the life from but the wound was the for years years.
+predicted string: He was married to the former Virginia governor, Kathleen Kennedy, and they had three children.
+################################################
+
+
+target string: The arm injury kept him from being drafted into the armed forces for the Second World War.
+predicted string with tf:  firstist was him from playing able into the Army forces, a remainder World War.
+predicted string: He was a member of the Republican National Committee from 1963 to 1968, serving as Vice President between 1964 and 1966.
+################################################
+
+
+target string: Lawford's first major movie role was A Yank At Eton (1942).
+predicted string with tf: rence was first wife role role was in Christmasank, thease,1936),
+predicted string: In the 1970s, he was elected to Congress as a member of the New York City Democratic Party.
+################################################
+
+
+target string: He played a snobby bully opposite Mickey Rooney.
+predicted string with tf:  was for roleook, in his Rooney,
+predicted string: He was born on November 8, 1892 in Washington, D.C.
+################################################
+
+
+target string: The picture was a smash hit and Lawford's performance was widely praised.
+predicted string with tf:  first was taken tribute hit on was & was first was widely praised.
+predicted string: He was elected to the United States House of Representatives in 1956.
+################################################
+
+
+target string: Page recorded several live comedy albums for the Laff Records label in the late 1960's and early 1970's; One release, Watch It Sucker!, was titled after Aunt Esther's catchphrase to cash in on her newfound TV fame.
+predicted string with tf:  was that songs performances routines, the BBC.ey label, the early 1960s and early 1970's, he of was "men,uck, was a after the M's favoritephrase. the in on her husband fame fame.
+predicted string: He was a member of the Democratic National Committee (DNC) from 1976 to 1978, where he served as chairman for eight years.
+################################################
+
+
+target string: He played college football for Alabama and was a teammate of legendary coach Bear Bryant.
+predicted string with tf:  was for football at the, was a member of the quarterback John Bryant.
+predicted string: He was the father of three children, one of whom died in a car accident on his way to school when he was 16 years old.
+################################################
+
+
+target string: After a career-ending injury, Howard joined the staff at Clemson College and became head coach in 1939.
+predicted string with tf:  the few inlong injury, he was the Army of the University in was a of of the.
+predicted string: He was married to Mary, and they had two children: a son named William (born in 1941) and a daughter named Caroline (b.1943), who died in 1945.
+################################################
+
+
+target string: He was inducted into the College Football Hall of Fame, the South Carolina Sports Hall of Fame, and the Clemson Ring of Honor.
+predicted string with tf:  was aed into the National of Hall of Fame in and National Carolina Athletic Hall of Fame, and the National University of Honor.
+predicted string: He was born in New York City, the son of Irish immigrants. He grew up in Brooklyn and later moved to Washington, D.C., where he attended Harvard Law School.
+################################################
+
+
+target string: Howard was born at Barlow Bend, Alabama ("three wagon greasin's from Mobile").
+predicted string with tf:  was born in therow,, New,B miles trainasy"") the,
+predicted string: He was born in New York City, and lived there until he moved to Washington, D.C., where he worked for the United States Department of Defense during World War II.
+################################################
+
+
+target string: He was the youngest president ever elected and the only Roman Catholic president.
+predicted string with tf:  was a first president of to to the first one Catholic president.
+predicted string: He was born in Philadelphia, and grew up in the suburbs of New York City.
+################################################
+
+
+target string: Kennedy is also the only Roman Catholic ever to become President, the first president to serve who was born in the 20th century, the last to die while still in office, the last Democrat from the North to be elected, and the last to be elected while serving
+predicted string with tf: edy was a a father person Catholic to to have president of and first to to do in was not in the Romanth century. and first to be in serving a office. the last to to the House to do elected to the the first to be elected. still.
+predicted string: He was also known as the "Father of American Football" and his son, George W. Bush, played for the National Football League's New York Yankees from 1994 to 1997.
+################################################
+
+
+target string: Another example of Kennedy's belief in the ability of nonmilitary power to improve the world was the creation of the Peace Corps, one of his first acts as president.
+predicted string with tf:  notable of the's influence in the power of the- personnel to influence the lives is his decision of the Kennedy Corps, which of the first initiatives as President.
+predicted string: He was married to the American actress, Joan Collins, and they had two sons, John (1962–1969) and Michael (1965–1967), who died in a car accident on New Year's Eve 1967.
+################################################
+
+
+target string: Kennedy married his second wife Jacqueline Bouvier on September 12, 1953.
+predicted string with tf: edy was his second wife,eline invier on July 17, 18.
+predicted string: He was elected to the U.S. House of Representatives in 1944 and served one term (1946–47) before being re-elected as a Democrat in 1946.
+################################################
+
+
+target string: During this period, he published Profiles in Courage, highlighting eight instances in which U.S. Senators risked their careers by standing by their personal beliefs.
+predicted string with tf:  the time, he was ailes in Courage, a the of of which he.S. soldiers had their lives by opposing up their convictions beliefs.
+predicted string: He was the youngest president of the United States, in office from 1961 to 1963. He served one term as President (1961–1963) and three terms as Vice-President (1963–1965), under George H. W. Bush.
+################################################
+
+
+target string: The book was awarded the 1957 Pulitzer Prize for Biography.
+predicted string with tf:  first was published the Pulitzer Pulitzer Prize for Dramaography.
+predicted string: He was born on March 1, 1885 in New York City.
+################################################
+
+
+target string: Kennedy's other decorations of the Second World War include the Purple Heart, Asiatic-Pacific Campaign Medal, and the World War II Victory Medal.
+predicted string with tf: edy was father children were the year World War were a " Heart, thepenatic StarAmerican,,, and the Presidential War II Victory Medal.
+predicted string: He was a member of the Republican National Committee, where he served as chairman from 1984 to 1986.
+################################################
+
+
+target string: In 1958, Kennedy published the first edition of his book A Nation of Immigrants, closely following his involvement in the Displaced Persons Act and the 1957 bill to bring families together.
+predicted string with tf:  the, he was his book book of his autobiography, Brief of Millionsigrants, which followed the father in the Vietnamplaced Persons Act of the Civil assassination to abolish the together.
+predicted string: He was married to the former Eleanor Roosevelt and they had two children, Elizabeth (who died of cancer in 1996) and Pauline.
+################################################
+
+
+target string: After World War II, Kennedy entered politics (partly to fill the void of his popular brother, Joseph P. Kennedy, Jr., on whom his family had pinned many of their hopes but who was killed in the war).
+predicted string with tf:  the War II, he was the andasly as help the gap left the father father, President Kennedy. Kennedy, who., who the he father had been their of his hopes). who had assassinated in a Korean.
+predicted string: He was elected to the US House of Representatives in 1938, but he did not serve a full term.
+################################################
+
+
+target string: In 1946, Representative James Michael Curley vacated his seat in an overwhelmingly Democratic district to become mayor of Boston and Kennedy ran for that seat, beating his Republican opponent by a large margin.
+predicted string with tf:  the, he John L Mcrie, his seat in the effort Republican Congress of become the of New, later's for president office in but incumbent opponent opponent, a margin margin.
+predicted string: He was also known for his involvement in the production of a film, "The Man Who Fell to Earth" (1962), which starred John Travolta and Michael Cagney.
+################################################
+
+
+target string: He was reelected twice, but had a mixed voting record, often diverging from President Harry S. Truman and the rest of the Democratic Party.
+predicted string with tf:  was a- to, in lost to less record record, and votingting from the Reagan Truman. Truman's his Republican of the Republican Party.
+predicted string: He was married to his high school sweetheart and they had three children, a daughter (Sophia) and a son (Michael), who died at the age of four.
+################################################
+
+
+target string: In the spring of 1941, Kennedy volunteered for the U.S. Army, but was rejected, mainly because of his troublesome back.
+predicted string with tf:  the early of 18, the was to the United.S. Army, where was fired by and because of his Jewish temper.
+predicted string: He was born in Cincinnati, Ohio and grew up in New York City.
+################################################
+
+
+target string: However, the U.S. Navy accepted him in September of that year.
+predicted string with tf: , he first.S. Army did the as the 18 that year.
+predicted string: After the war, he became a member of the United States House of Representatives.
+################################################
+
+
+target string: He participated in various commands in the Pacific Theater and earned the rank of lieutenant, commanding a patrol torpedo boat or PT boat.
+predicted string with tf:  was in the sports in the Army Theater, was a nickname of captain colonel and the unit of squadron. a boat.
+predicted string: He was born in New York City, where he grew up with his family.
+################################################
+
+
+target string: He was born in Overisel, Michigan.
+predicted string with tf:  was a in Newland, New,
+predicted string: He was elected to the House of Representatives in 1964.
+################################################
+
+
+target string: In 1923 he was awarded the inaugural Bôcher Memorial Prize by the American Mathematical Society.
+predicted string with tf:  the, married elected the Order Pulitzericentne Prize Medal for the French Academyical Society.
+predicted string: After the war, he served as a captain in the U.S. Navy and was promoted to brigadier general during the Korean War.
+################################################
+
+
+target string: The mathematician Garrett Birkhoff (1911-1996) was his son.
+predicted string with tf:  first was Wneyoff was1802–19) was a father.
+predicted string: He was elected to the United States House of Representatives in 1944.
+################################################
+
+
+target string: He was noted for his lyrical playing, and performed with John Coltrane, Dexter Gordon, Hampton Hawes, Jackie McLean, and Ike and Tina Turner, among others.
+predicted string with tf:  was a for his loveical style style his his a a Lennontrane, who Fletcher, and Bes, and GleDon, and others Turner Tina Turner. among others.
+predicted string: He was a member of the United States House of Representatives, where he served as chairman from 1977 to 1981.
+################################################
+
+
+target string: He later became an educator, teaching music theory at the University of the District of Columbia; he was also director of the District of Columbia Music Center jazz workshop band.
+predicted string with tf:  was married a actor, and at and and the University of California Arts of Columbia, he also also a of the school's Columbia's Department. department..
+predicted string: He was a member of the United States Naval Reserve, where he served in World War II.
+################################################
+
+
+target string: John Ellis "Jeb" Bush (born February 11, 1953), a Republican, is the forty-third and current Governor of Florida.
+predicted string with tf:  was wasJackenny" was was19 October 6, 18) was former, was the father-second president last governor of Texas.
+predicted string: He was born in Chicago, Illinois and raised in New York City.
+################################################
+
+
+target string: He is a prominent member of the Bush family, the younger brother of President George W. Bush and the second son of former President George H. W. Bush and Barbara Bush.
+predicted string with tf:  was the member member of the American family, and father brother of President George W. Bush, the father son of President President George W. W. Bush. former Bush.
+predicted string: He was a member of the United States House of Representatives from 1973 to 1977, where he served as chairman.
+################################################
+
+
+target string: After earning his degree, Bush went to work in an entry level position in the international division of Texas Commerce Bank, which was run by Ben Love.
+predicted string with tf:  the his degree, he became to the for the office- position at the Department banking of the A Department, where was based by his Carsontt
+predicted string: He was born in New York City and grew up on the Upper East Side of Manhattan, where he graduated from Columbia University with a degree in history.
+################################################
+
+
+target string: Following the 1980 presidential election, Bush and his family moved to Miami-Dade County, Florida.
+predicted string with tf:  the deaths election, the was his wife moved to the,Dade County, Florida,
+predicted string: He was born on April 22, 1892 in New York City.
+################################################
+
+
+target string: He took a job in real estate with Armando Codina, a 32-year-old Cuban immigrant and self-made American millionaire.
+predicted string with tf:  was the job as the estate in theando Iino, a partner-year-old Italian immigrant, a-made millionaire businessman.
+predicted string: He was elected to the United States House of Representatives in 1946, serving one term (1948–1949) and three terms as a Senator from New York.
+################################################
+
+
+target string: Bush co-founded the first charter school in the State of Florida: Liberty City Charter School, a grades K-6 elementary school.
+predicted string with tf:  was-authored the National American school in the United of New, the High Academy School, which public one-12 school school in
+predicted string: He was a member of the Democratic National Committee (DNC) from 1967 to 1968, when he resigned.
+################################################
+
+
+target string: [4] Situated in Liberty City, Dade County, the school is located just outside of greater Miami, in an area plagued by poverty.
+predicted string with tf: 2] Inuations in the,, New. County, New city was located on outside of the New, Florida the area known by crime and
+predicted string: In the 1950s and 1960s, he was a member of the Democratic National Committee (DNC) in Washington, D.C.
+################################################
+
+
+target string: The co-founder, working alongside Bush as a partner, was T. Williard Fair, a well-known local black activist and head of the Greater Miami Urban League.
+predicted string with tf:  first-founder of John with his, a producer, was theerence Booneard,banks who former-known author politician actor and politician of the Black Chicago Black League.
+predicted string: He was born on March 5, 1892 in New York City. He is the son of a French immigrant father and a German-American mother.
+################################################
+
+
+target string: Governor Buddy MacKay (55% to 45%) to become governor, after courting moderate voters and Hispanics.
+predicted string with tf: or George RoD was19) Republican 55%) of the the of and theting the Republican, winning.
+predicted string: He was born in New Orleans, Louisiana and graduated from the University of Southern California with a degree in English.
+################################################
+
+
+target string: He then enrolled at Phillips Andover, a private boarding school in Massachusetts already attended by his brother George.
+predicted string with tf:  was went in the Academy Sullivan College where private school school in the, known by many father,,
+predicted string: He was elected to the United States House of Representatives in 1972 and served two terms (1973-1975) as a member of the Democratic Party.
+################################################
+
+
+target string: At the urging of his wife, Columba, a devout Mexican Catholic, the Protestant Bush became a Roman Catholic.
+predicted string with tf:  the time of his wife, hea, he young Catholic Catholic, he couple minister was a Catholic Catholic in
+predicted string: He was killed in a car accident on his way home from work one day.
+################################################
+
+
+target string: Bush attended the University of Texas at Austin, where he graduated Phi Beta Kappa with a Bachelor's degree in Latin American Studies in 1973, taking only two and a half years to complete his work, and obtaining generally excellent grades.
+predicted string with tf:  was the University of California at Austin, where he was in Beta Kappa in a degree of degree in English American Studies in 1953. and a one years a half years to complete his degree. and was a excellent grades.
+predicted string: He was the first president of the United States to be nominated for a Nobel Peace Prize, and he received an honorary degree from Harvard Law School in 1963.
+################################################
+
+
+target string: He regularly delivers speeches in both English and Spanish due to the large number of Spanish speaking residents of Florida.
+predicted string with tf:  was appeared speeches at the the and French, to his fact number of English speakers speakers in the.
+predicted string: He was born in New York City, the son of an Irish immigrant father and a Scottish mother.
+################################################
+
+
+target string: Their three children, now grown, are George P. (recently married), John E. "Jeb" Bush Jr. and Noelle.
+predicted string with tf:  first children, John grown, are:,. PGeorgely named), John (. (Jackock" ( (. ( Johnelle (
+predicted string: He was the son of a judge and lawyer, but his father died in an automobile accident when he was eight years old.
+################################################
+
+
+target string: In November 1977 he was sent to the Venezuelan capital of Caracas, in South America, to open a new operation for the bank.
+predicted string with tf:  the,, was elected to the United prison, Manacas to where the America, to serve a new bank, the United,
+predicted string: He died on October 5, 1993, from a heart attack at the age of 69. He is survived by his wife and three children.
+################################################
+
+
+target string: When Bush was six years old, the family moved to Houston, Texas.
+predicted string with tf:  he was president months old, he family moved to the, Texas.
+predicted string: He was a member of the Republican Party and served in the House of Representatives from 1967 to 1971.
+################################################
+
+
+target string: Bush stayed in Houston with another family to finish the school year, and spent most summers and holidays at the family estate, known as the Bush Compound.
+predicted string with tf:  was in the for his family, raise his year year, and then the of in winters there the family's, the as the " Houseound.
+predicted string: He was born in New York City, but spent most of his childhood and early adulthood in the Philadelphia area.
+################################################
+
+
+target string: When Bush was seventeen, he went to Leon, Mexico, as part of his school's student exchange program.
+predicted string with tf:  he was elected, he was to theidas Arkansas, where a of a father's program government program.
+predicted string: He was born on March 22, 1884 in New York City.
+################################################
+
+
+target string: While attending a motorcycle race, he met a local girl named Columba Garnica Gallo, whom he eventually married.
+predicted string with tf:  in the college club in he was a young man named Marya,ett,o, who he later married.
+predicted string: He was born in the small town of Bakersfield, California and grew up on a farm with his family.
+################################################
+
+
+target string: Jeb Bush was born in Midland, Texas, where his father was running an oil drilling company.
+predicted string with tf: . Bush was born in Newland, Texas, on he father was a a oil company company.
+predicted string: He served in the United States Army during World War II.
+################################################
+
+

@@ -3,9 +3,9 @@ import torch.nn as nn
 import torch.nn.init as init
 from torch import Tensor
 import math
-from code.git_file.BELT_Implement.module.types_ import *
+from module.types_ import *
 import torch.nn.functional as F
-from util import checkpoint
+from module.util import checkpoint
 
 '''
     """
@@ -585,3 +585,23 @@ class Linear(nn.Module):
 
     def forward(self, x: Tensor) -> Tensor:
         return self.linear(x)
+if __name__ == '__main__':
+    x = torch.rand(32, 56, 840)
+    kernel_sizes = [1, 31, 1, 1, 1]
+    stride_sizes = [1,1,1,1,1,1]
+    conformers = nn.Sequential(*[
+        ConformerBlock(
+            encoder_dim=840,
+            num_attention_heads=8,
+            feed_forward_expansion_factor=4,
+            conv_expansion_factor=2,
+            feed_forward_dropout_p=0.1,
+            attention_dropout_p=0.0,
+            conv_dropout_p=0.0,
+            conv_kernel_size=kernel_sizes[i],  # 单值
+            stride_size=stride_sizes[i],       # 单值
+            half_step_residual=True
+        )
+        for i in range(len(kernel_sizes))
+    ])
+    print(conformers(x).shape)

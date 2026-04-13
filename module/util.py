@@ -4,10 +4,7 @@ import os
 import numpy as np
 from dataclasses import dataclass, field
 from typing import Callable, Dict
-from model.decoding_model import DELTA
-from model.pretrain_model import pretrainedmodule
 from transformers import PreTrainedModel
-from model.wrappers import Wrapper_pretrain
 from typing import List
 
 def get_linear_annealing_weight(step, start_step, end_step):
@@ -28,58 +25,6 @@ def get_linear_annealing_weight(step, start_step, end_step):
     # (step - start_step) / (end_step - start_step)을 계산하여 선형적으로 증가
     # min(..., 1.0)을 통해 가중치가 1을 넘지 않도록 보장
     return min(1.0, (step - start_step) / (end_step - start_step))
-
-
-@dataclass
-class BuildOptions:
-    model_name: str = 'DELTA'  # 'DELTA', 'w/o_diffusion', 'DConv', 'EEGNet', 'w/o_pretrained'
-    is_con: bool = False
-    is_geo: bool = False
-    is_kl: bool  = False
-    is_diffusion: List[bool] = field(default_factory=lambda: [True, False])
-    autoencoder: nn.Module = None
-    denoising_module: nn.Module = None
-    pretrained_module: Wrapper_pretrain = None
-    pretrained_LM: PreTrainedModel = None
-    device: torch.device = torch.device('cpu')
-    noise_scheduler:str = 'linear'
-    time_step:int = 1000
-
-        
-    def __call__(self):
-        if 'pretrain' in self.model_name and 'pretrained' not in self.model_name:
-            return self.autoencoder, self.denoising_module, self.pretrained_LM, self.is_con, self.is_geo, self.is_kl, self.is_diffusion, self.device, self.noise_scheduler, self.time_step
-        else:
-            return self.pretrained_module, self.is_diffusion, self.noise_scheduler, self.time_step, self.device
-
-
-def build_delta(apts: BuildOptions):
-    return DELTA(*apts()).to(apts.device)
-
-
-
-def build_pretrain_module(apts: BuildOptions):
-    return pretrainedmodule(*apts()).to(apts.device)
-
-
-MODEL_BUILDERS: Dict[str, Callable[[], object]] = {
-    "DELTA":           build_delta,
-    "full_diffusion": build_delta,
-    "main_diffusion": build_delta,
-    "wo_diffusion":   build_delta,
-    "DConv":           build_delta,
-    "EEGNet":          build_delta,
-    "wo_pretrained":  build_delta,
-    "DConv_pretrain":           build_pretrain_module,
-    "EEGNet_pretrain":          build_pretrain_module,
-    "pretrain": build_pretrain_module,
-    "wo_diffusion_pretrain": build_pretrain_module,
-    }
-
-def make_model(opts: BuildOptions):
-    return MODEL_BUILDERS[opts.model_name](opts)  # 본체 생성
-
-
 
 
 

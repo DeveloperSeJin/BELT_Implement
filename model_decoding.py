@@ -4,6 +4,7 @@ import torch.utils.data
 import math
 import numpy as np
 from module.VQVAE import VectorQuantizer
+from module.conformer import ConformerBlock
 def checkpoint(func, inputs, params, flag):
     """
     Evaluate a function without caching intermediate activations, allowing for
@@ -136,25 +137,37 @@ class BELT(nn.Module):
         super().__init__()
 
         self.pretrained = pretrained_layers
-        # additional transformer encoder, following BART paper about
-        self.additional_encoder_layer = nn.TransformerEncoderLayer(d_model=in_feature, nhead=additional_encoder_nhead,
-                                                                   dim_feedforward=additional_encoder_dim_feedforward,
-                                                                   batch_first=True)
-        self.contrastive_learning = ContrastiveLatentLoss(gamma=0.075)
-        self.additional_encoder = nn.TransformerEncoder(self.additional_encoder_layer, num_layers=6)
 
-        # print('[INFO]adding positional embedding')
-        # self.positional_embedding = PositionalEncoding(in_feature)
-        
-        self.fc1 = nn.Linear(in_feature, decoder_embedding_size)
+        self.contrastive_learning = ContrastiveLatentLoss(gamma=0.075)
+
+        self.fc1 = nn.Linear(512, decoder_embedding_size)
+        self.fc2 = nn.Linear(1024, 512)
+        self.fc3 = nn.Linear(840, 512)
+        kernel_sizes = [1, 31, 1, 1, 1]
+        stride_sizes = [1,1,1,1,1,1]
+
+        self.conformers = nn.Sequential(*[
+            ConformerBlock(
+                encoder_dim=512,
+                num_attention_heads=8,
+                feed_forward_expansion_factor=4,
+                conv_expansion_factor=2,
+                feed_forward_dropout_p=0.1,
+                attention_dropout_p=0.0,
+                conv_dropout_p=0.0,
+                conv_kernel_size=kernel_sizes[i],  # 单值
+                stride_size=stride_sizes[i],       # 单值
+                half_step_residual=True
+            )
+            for i in range(len(kernel_sizes))
+        ])
         self.vq_layer = VectorQuantizer(
             num_embeddings=2048,
             embedding_dim=512,
-            beta =self.beta)
-        self.d_conformer = {}
+            beta =1.0)
 
     def text_embedding(self, x):
-        embeded_context = self.pretrained_LM.model.shared(x)
+        embeded_context = self.pretrained.model.shared(x)
         condition = self.fc2(embeded_context)
 
         return condition
@@ -175,11 +188,18 @@ class BELT(nn.Module):
             negative_prompt_attention_mask=None,
             **kwargs,
     ):
-        encoded_embedding = self.addin_forward(input_embeddings_batch, input_masks_invert)
+        x = self.fc3(input_embeddings_batch)
+        discrete_embedding = self.conformers(x)
+
+
+        z_q, vq_loss = self.vq_layer(discrete_embedding)
+        if z_q.shape[1] == 512:
+            z_q = z_q.permute(0, 2, 1).contiguous()
+        out = self.fc1(z_q)
 
         output=self.pretrained.generate(
-            inputs_embeds = encoded_embedding,
-            attention_mask = input_masks_batch[:,:encoded_embedding.shape[1]],
+            inputs_embeds = out,
+            attention_mask = input_masks_batch[:,:out.shape[1]],
             decoder_input_ids = dummy_decoder_inputs_ids,
             **kwargs,)
         return output
@@ -187,16 +207,21 @@ class BELT(nn.Module):
     def forward(self, input_embeddings_batch, input_masks_batch, input_masks_invert, target_ids_batch_converted, context, target_ids_batch):
 
         condition = self.text_embedding(context)
+        x = self.fc3(input_embeddings_batch)
+        discrete_embedding = self.conformers(x)
 
-        discrete_embedding = self.d_conformer(input_embeddings_batch)
 
         z_q, vq_loss = self.vq_layer(discrete_embedding)
+        if z_q.shape[1] == 512:
+            z_q = z_q.permute(0, 2, 1).contiguous()
+            
+        out = self.fc1(z_q)
         # print(f'forward:{input_embeddings_batch.shape,input_masks_batch.shape,input_masks_invert.shape,target_ids_batch_converted.shape,encoded_embedding.shape}')
-        out = self.pretrained(inputs_embeds=encoded_embedding, attention_mask=input_masks_batch,
+        out = self.pretrained(inputs_embeds=out, attention_mask=input_masks_batch,
                                 labels=target_ids_batch_converted)
         
         # contrastive learning loss
         valid_mask = (target_ids_batch != -100)
         valid_mask_float = valid_mask.float()
-        loss = loss + self.beta * self.contrastive_learning(z, condition, valid_mask_float)
-        return out
+        loss = out.loss + vq_loss + (0.9 * self.contrastive_learning(z_q, condition, valid_mask_float))
+        return out, loss

@@ -12,13 +12,12 @@ from glob import glob
 import time
 import copy
 from tqdm import tqdm
-from transformers import BertLMHeadModel, BartTokenizer, BartForConditionalGeneration, BartConfig, \
-    BartForSequenceClassification, BertTokenizer, BertConfig, BertForSequenceClassification, RobertaTokenizer, \
-    RobertaForSequenceClassification
+from transformers import BartTokenizer, BartForConditionalGeneration, BartConfig, BertTokenizer, BertConfig
+from model_decoding import BELT
 
-# from data import ZuCo_dataset
-from revised_data import ZuCo_dataset
-from model_decoding import BrainTranslator, BrainTranslatorNaive
+from data import ZuCo_dataset
+# from revised_data import ZuCo_dataset
+
 from config import get_config
 
 from eval_decoding import eval_model
@@ -55,6 +54,7 @@ def train_model(dataloaders, device, model, optimizer, scheduler, num_epochs=25,
                 input_masks_batch = input_masks.to(device)
                 input_mask_invert_batch = input_mask_invert.to(device)
                 target_ids_batch = target_ids.to(device)
+                context = target_ids_batch.clone()
                 """replace padding ids in target_ids with -100"""
                 target_ids_batch[target_ids_batch == tokenizer.pad_token_id] = -100
 
@@ -62,8 +62,8 @@ def train_model(dataloaders, device, model, optimizer, scheduler, num_epochs=25,
                 optimizer.zero_grad()
 
                 # forward
-                seq2seqLMoutput = model(input_embeddings_batch, input_masks_batch, input_mask_invert_batch,
-                                        target_ids_batch)
+                seq2seqLMoutput, loss = model(input_embeddings_batch, input_masks_batch, input_mask_invert_batch,
+                                        target_ids_batch, context, target_ids_batch)
 
                 """calculate loss"""
                 # logits = seq2seqLMoutput.logits # 8*48*50265
@@ -71,7 +71,6 @@ def train_model(dataloaders, device, model, optimizer, scheduler, num_epochs=25,
 
                 # loss = criterion(logits, target_ids_batch_label) # calculate cross entropy loss only on encoded target parts
                 # NOTE: my criterion not used
-                loss = seq2seqLMoutput.loss  # use the BART language modeling loss
 
                 # """check prediction, instance 0 of each batch"""
                 # print('target size:', target_ids_batch.size(), ',original logits size:', logits.size(), ',target_mask size', target_mask_batch.size())
@@ -266,114 +265,118 @@ if __name__ == '__main__':
         config = BertConfig.from_pretrained("bert-base-cased")
         config.is_decoder = True
 
-    # train dataset
-    train_set = ZuCo_dataset(whole_dataset_dicts, 'train', tokenizer, eeg_type = eeg_type_choice, bands = bands_choice, setting = dataset_setting)
-    # dev dataset
-    dev_set = ZuCo_dataset(whole_dataset_dicts, 'dev', tokenizer, eeg_type = eeg_type_choice, bands = bands_choice, setting = dataset_setting)
-    # test dataset
-    test_set = ZuCo_dataset(whole_dataset_dicts, 'test', tokenizer, eeg_type = eeg_type_choice, bands = bands_choice, setting = dataset_setting)
+    if dataset_setting != 'unique_sent':
 
-    
-    dataset_sizes = {'train': len(train_set), 'dev': len(dev_set)}
-    print('[INFO]train_set size: ', len(train_set))
-    print('[INFO]dev_set size: ', len(dev_set))
-    print('[INFO]test_set size: ', len(test_set))
-    
-    # train dataloader
-    train_dataloader = DataLoader(train_set, batch_size = batch_size, shuffle=True, num_workers=4)
-    # dev dataloader
-    val_dataloader = DataLoader(dev_set, batch_size = 1, shuffle=False, num_workers=4)
-    test_dataloader = DataLoader(test_set, batch_size = 1, shuffle=False, num_workers=4)
-    # dataloaders
-    dataloaders = {'train':train_dataloader, 'dev':val_dataloader, 'test':test_dataloader}
-    
-    ''' set up model '''
-    if model_name == 'BrainTranslator':
-        if use_random_init:
-            config = BartConfig.from_pretrained('facebook/bart-large')
-            pretrained = BartForConditionalGeneration(config)
-        else:
-            pretrained = BartForConditionalGeneration.from_pretrained('facebook/bart-large')
-    
-        model = BrainTranslator(pretrained, in_feature = 105*len(bands_choice), decoder_embedding_size = 1024, additional_encoder_nhead=8, additional_encoder_dim_feedforward = 2048)
-    
-    elif model_name == 'BertGeneration':
-        pretrained = BertLMHeadModel.from_pretrained('bert-base-cased', config=config)
-        model = BrainTranslator(pretrained, in_feature = 105*len(bands_choice), decoder_embedding_size = 768, additional_encoder_nhead=8, additional_encoder_dim_feedforward = 2048)
-    elif model_name == 'BrainTranslatorNaive':
-        pretrained = BartForConditionalGeneration.from_pretrained('facebook/bart-large')
-        model = BrainTranslatorNaive(pretrained, in_feature = 105*len(bands_choice), decoder_embedding_size = 1024, additional_encoder_nhead=8, additional_encoder_dim_feedforward = 2048)
 
-    model.to(device)
-    
-    ''' training loop '''
+        subjects=['YDR', 'YFR', 'YFS', 'YAC', 'YDG', 'YHS', 'YMD', 'YLS', 'YRH', 'YRK', 'YSD', 'YRP', 'YSL', 'YTL', 'YAG', 'YAK', 'YIS', 'YMS']
+        
+        for subj in subjects:        
+            # train dataset
+            train_set = ZuCo_dataset(whole_dataset_dicts, 'train', tokenizer, eeg_type = eeg_type_choice, bands = bands_choice, setting = subj)
+            # dev dataset
+            dev_set = ZuCo_dataset(whole_dataset_dicts, 'dev', tokenizer, eeg_type = eeg_type_choice, bands = bands_choice, setting = subj)
+            # test dataset
+            
 
-    ######################################################
-    '''step one trainig: freeze most of BART params'''
-    ######################################################
+            
+            dataset_sizes = {'train': len(train_set), 'dev': len(dev_set)}
+            print('[INFO]train_set size: ', len(train_set))
+            print('[INFO]dev_set size: ', len(dev_set))
 
-    # closely follow BART paper
-    if model_name in ['BrainTranslator','BrainTranslatorNaive']:
-        for name, param in model.named_parameters():
-            if param.requires_grad and 'pretrained' in name:
-                if ('shared' in name) or ('embed_positions' in name) or ('encoder.layers.0' in name):
-                    continue
+            
+            # train dataloader
+            train_dataloader = DataLoader(train_set, batch_size = 64, shuffle=True, num_workers=4)
+            # dev dataloader
+            val_dataloader = DataLoader(dev_set, batch_size = 1, shuffle=False, num_workers=4)
+            
+            # dataloaders
+            dataloaders = {'train':train_dataloader, 'dev':val_dataloader}
+            
+            ''' set up model '''
+            if model_name == 'BrainTranslator':
+                if use_random_init:
+                    config = BartConfig.from_pretrained('facebook/bart-large')
+                    pretrained = BartForConditionalGeneration(config)
                 else:
-                    param.requires_grad = False
-    elif model_name == 'BertGeneration':
-        for name, param in model.named_parameters():
-            if param.requires_grad and 'pretrained' in name:
-                if ('embeddings' in name) or ('encoder.layer.0' in name):
-                    continue
+                    pretrained = BartForConditionalGeneration.from_pretrained('facebook/bart-large')
+            
+                model = BELT(pretrained, in_feature = 105*len(bands_choice), decoder_embedding_size = 1024, additional_encoder_nhead=8, additional_encoder_dim_feedforward = 2048)
+        
+            model.to(device)
+            
+            ''' training loop '''
+
+            ######################################################
+            '''step one trainig: freeze most of BART params'''
+            ######################################################
+
+            # closely follow BART paper
+            if model_name in ['BrainTranslator','BrainTranslatorNaive']:
+                for name, param in model.named_parameters():
+                    if param.requires_grad and 'pretrained' in name:
+                        if ('shared' in name) or ('embed_positions' in name) or ('encoder.layers.0' in name):
+                            continue
+                        else:
+                            param.requires_grad = False
+            elif model_name == 'BertGeneration':
+                for name, param in model.named_parameters():
+                    if param.requires_grad and 'pretrained' in name:
+                        if ('embeddings' in name) or ('encoder.layer.0' in name):
+                            continue
+                        else:
+                            param.requires_grad = False
+        
+
+            if skip_step_one:
+                if load_step1_checkpoint:
+                    stepone_checkpoint = 'path_to_step_1_checkpoint.pt'
+                    print(f'skip step one, load checkpoint: {stepone_checkpoint}')
+                    model.load_state_dict(torch.load(stepone_checkpoint))
                 else:
-                    param.requires_grad = False
- 
+                    print('skip step one, start from scratch at step two')
+            else:
 
-    if skip_step_one:
-        if load_step1_checkpoint:
-            stepone_checkpoint = 'path_to_step_1_checkpoint.pt'
-            print(f'skip step one, load checkpoint: {stepone_checkpoint}')
-            model.load_state_dict(torch.load(stepone_checkpoint))
-        else:
-            print('skip step one, start from scratch at step two')
-    else:
+                ''' set up optimizer and scheduler'''
+                optimizer_step1 = optim.SGD(filter(lambda p: p.requires_grad, model.parameters()), lr=step1_lr, momentum=0.9)
 
-        ''' set up optimizer and scheduler'''
-        optimizer_step1 = optim.SGD(filter(lambda p: p.requires_grad, model.parameters()), lr=step1_lr, momentum=0.9)
+                exp_lr_scheduler_step1 = lr_scheduler.StepLR(optimizer_step1, step_size=20, gamma=0.1)
 
-        exp_lr_scheduler_step1 = lr_scheduler.StepLR(optimizer_step1, step_size=20, gamma=0.1)
+                ''' set up loss function '''
+                criterion = nn.CrossEntropyLoss()
 
-        ''' set up loss function '''
-        criterion = nn.CrossEntropyLoss()
+                print('=== start Step1 training ... ===')
+                # print training layers
+                show_require_grad_layers(model)
+                # return best loss model from step1 training
+                model = train_model(dataloaders, device, model, criterion, optimizer_step1, exp_lr_scheduler_step1, num_epochs=num_epochs_step1, checkpoint_path_best = output_checkpoint_name_best, checkpoint_path_last = output_checkpoint_name_last)
 
-        print('=== start Step1 training ... ===')
-        # print training layers
-        show_require_grad_layers(model)
-        # return best loss model from step1 training
-        model = train_model(dataloaders, device, model, criterion, optimizer_step1, exp_lr_scheduler_step1, num_epochs=num_epochs_step1, checkpoint_path_best = output_checkpoint_name_best, checkpoint_path_last = output_checkpoint_name_last)
+            ######################################################
+            '''step two trainig: update whole model for a few iterations'''
+            ######################################################
+            for name, param in model.named_parameters():
+                param.requires_grad = True
 
-    ######################################################
-    '''step two trainig: update whole model for a few iterations'''
-    ######################################################
-    for name, param in model.named_parameters():
-        param.requires_grad = True
+            ''' set up optimizer and scheduler'''
+            optimizer_step2 = optim.SGD(model.parameters(), lr=5e-6, momentum=0.9)
 
-    ''' set up optimizer and scheduler'''
-    optimizer_step2 = optim.SGD(model.parameters(), lr=step2_lr, momentum=0.9)
+            exp_lr_scheduler_step2 = lr_scheduler.StepLR(optimizer_step2, step_size=30, gamma=0.1)
 
-    exp_lr_scheduler_step2 = lr_scheduler.StepLR(optimizer_step2, step_size=30, gamma=0.1)
+            ''' set up loss function '''
+            criterion = nn.CrossEntropyLoss()
+            
+            print()
+            print('=== start Step2 training ... ===')
+            # print training layers
+            show_require_grad_layers(model)
+            
+            '''main loop'''
+            trained_model = train_model(dataloaders, device, model, optimizer_step2, exp_lr_scheduler_step2, num_epochs=60, checkpoint_path_best = output_checkpoint_name_best, checkpoint_path_last = output_checkpoint_name_last)
 
-    ''' set up loss function '''
-    criterion = nn.CrossEntropyLoss()
-    
-    print()
-    print('=== start Step2 training ... ===')
-    # print training layers
-    show_require_grad_layers(model)
-    
-    '''main loop'''
-    trained_model = train_model(dataloaders, device, model, optimizer_step2, exp_lr_scheduler_step2, num_epochs=num_epochs_step2, checkpoint_path_best = output_checkpoint_name_best, checkpoint_path_last = output_checkpoint_name_last)
 
-    # '''save checkpoint'''
-    # torch.save(trained_model.state_dict(), os.path.join(save_path,output_checkpoint_name))
-    eval_model(dataloaders, device, tokenizer, model=trained_model, output_all_results_path=f'./results/{dataset_setting}.txt', score_results = f'./score_results/{dataset_setting}.txt')
+            test_set = ZuCo_dataset(whole_dataset_dicts, 'test', tokenizer, eeg_type = eeg_type_choice, bands = bands_choice, setting = subj)
+            print('[INFO]test_set size: ', len(test_set))
+            test_dataloader = DataLoader(test_set, batch_size = 1, shuffle=False, num_workers=4)
+            dataloaders = {'test':test_dataloader}
+            # '''save checkpoint'''
+            # torch.save(trained_model.state_dict(), os.path.join(save_path,output_checkpoint_name))
+            eval_model(dataloaders, device, tokenizer, model=trained_model, output_all_results_path=f'./results/{dataset_setting}-{subj}.txt', score_results = f'./score_results/{dataset_setting}-{subj}.txt')
